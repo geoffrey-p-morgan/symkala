@@ -1,0 +1,36 @@
+{% extends "imageInterface.html" %}
+
+{% block head %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/dataTool.css' %}?{% now 'U' %}">
+
+{% endblock %}
+
+{% block workspace %}
+<div style="display:-webkit-inline-box">
+	<div class="dataCol">
+		<div><a href="{% url 'archive' %}">Return</a></div>
+		<div><a href="{% url 'deleteData' data.id %}">Delete Data</a></div>
+	</div>
+	<div class="container">
+		{% if text %}
+			<p> {{text}} </p>
+		{% else %}
+			<img class="img data" src="/api/{{data.file.id}}" data-id="{{data.id}}">
+		{% endif %}
+	</div>
+	<div class="dataCol">
+		<div>{{data.name}}</div>
+		<br>
+		{% if tags %}
+		tags :
+		{% for tag in tags %}
+			<div class="tag">{{tag}}</div>
+		{% endfor %}
+		{% endif %}
+	</div>
+</div>
+{% endblock %}
+
+{% block filters %}
+{% endblock %}

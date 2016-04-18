@@ -1,0 +1,23 @@
+{% extends "interface.html" %}
+
+{% block head %}
+<title> Visualize </title>
+
+{% load staticfiles %}
+<script src="{% static 'js/PapaParse-4.1.2/papaparse.js' %}"></script>
+<script src="{% static 'js/chart.js' %}"></script>
+<script src="{% static 'js/wordcloud.js' %}"></script>
+
+<script>
+	var fileName = "{{fileName}}";
+</script>
+<script src="{% static 'js/text.js' %}?{% now 'U' %}"></script>
+{% endblock %}
+
+{% block workspace %}
+<canvas id="wordChart" width="400" height="400"></canvas>
+{% endblock %}
+
+{% block visualize %}
+<img class="imgNav" src="{% static 'images/Visualize_Selected.png' %}">
+{% endblock %}

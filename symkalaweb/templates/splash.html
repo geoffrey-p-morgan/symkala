@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="symkala, gis, geographic, geography, big, data, analysis, analysis, analytics">
+
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'css/reset.css' %}"/>
+	<link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+
+	<title>SYMKALA</title>
+	<meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
+
+</head>
+
+<body>
+	<div id="menu">
+		<a href = "#" id="title">SYMKALA</a>
+	</div>
+
+	<div id="one">
+		<div class="overvid">
+			<h1 id="logo">SYMKALA</h1>
+			<br><h4>Making mission built data analytics accessible for all</h4>
+		</div>
+		<div class="video-container">
+		<div class="video-inner">
+		<video autoplay loop muted grayscale poster="{% static 'img/video.jpg' %}" id="video-bg">
+			<source src="{% static 'img/video.mp4' %}" type="video/mp4">
+		</video>
+		</div>
+		</div>
+	</div>
+
+	<div class="content" id="two">
+		<div class="centertext" id="twotext">
+		<h1>Visualize the full picture</h1><br>
+		<h4>Incorporate Symkala into your workflow to uncover hidden trends, actionable insights, and mission-critical information across your vast quantities of data sets, databases, text documents, photos, and more.</h4>
+		</div>
+	</div>
+
+	<div class="content" id="three">
+		<div class="col">
+			<img src="{% static 'img/icon_1.png' %}" alt="icon1" class="icon"><h3>Upload and analyze your data in minutes</h3><br>
+			<p>Quickly upload your own photos, articles, interviews, APIs, databases, etc. from your computer into SYMKALA. Once your data has been categorized, the software completes advanced analysis in minutes using machine learning and artificial intelligence.</p>
+		</div>
+		<div class="col">
+			<img src="{% static 'img/icon_2.png' %}" alt="icon2" class="icon"><h3>Solve problems as the situation unfolds in real time</h3><br>
+			<p>No more siloed data teams. Your teams no longer need to rely on an outside data science group to acquire advanced data analysis. Whether you are on the ground, in transit, or in an office, you can complete the analysis and visualizations you need to take action immediately. Non-technical users can learn Symkala's intuitive workflow in minutes.</p>
+		</div>
+		<div class="col">
+			<img src="{% static 'img/icon_3.png' %}" alt="icon3" class="icon"><h3>Share your findings and acquire those of others</h3><br>
+			<p>We cut through complexity. SYMKALA's reporting feature lets you quickly share your analysis.</p>
+		</div>
+		<div class="col">
+			<img src="{% static 'img/icon_4.png' %}" alt="icon4" class="icon"><h3>Build your capabilities on the cutting edge of data science</h3><br>
+			<p>The world of data analytics is unclear and unstructured. SYMKALA is a where experts in any field can find each other and market their own skills. Through our SYMKALA Marketplace, all users (even those with no technical background) can find, build, and deploy best-in-class data science tools to fit their needs.</p>
+		</div>
+	</div>
+
+	<div class="content" id="four">
+		<div class="centertext">
+			<h1>Symkala is intuitive for individuals and enterprises</h1><br><br><br>
+		</div>
+		<div class="thirds">
+			<h3>Humanitarian Professionals</h3>
+			<br><p>Projects are slow, the quality of assessments is spotty, and security supply chains, needs assessments and project evaluations are affected. As NGOs suffer from high turnover, there is no institutional memory resulting in big organizational footprints and a broken international aid system.</p>
+ 		</div>
+ 		<div class="thirds">
+ 			<h3>Intelligence Specialists</h3>
+ 			<br><p>Regional security predictions, supply chain models, event tracking, critical outlier identification, and report synthesis is developed around separate departments and managerial processes, undermining sense making at organizational scale. Individuals become ‘silos of knowledge’ and reliance upon data scientists to refute/validate negates expertise.</p>
+		</div>
+		<div class="thirds">
+			<h3>Buy Side Financial Analysts</h3>
+			<br><p>Valuations, market trends, deals, and superior returns are generated through a fusion of information arbitrage and insight, but subject matter experts rely on separate technology teams for data science needs for trade and investment recommendations, direct trading in the market, position making, risk–adjusted return projections. In fast-paced markets there is no room for this lack of organizational agility.</p>
+		</div>
+		<div class="centertext">
+			<h4>Symkala is able to target all of these stakeholders and their pain points. Transform your workflow with Symkala, and uncover hidden trends, actionable insights, and mission-critical information across vast quantities of data sets, databases, text documents, photos, and even more.</h4>
+		</div>
+	</div>
+
+	<div class="content" id="five">
+		<div class="formtext">
+		<h1>Symkala's enterprise solution is available for select partners.</h1>
+		<br><h2>Stay tuned for our complete launch later this year. </h2><br><br>
+		<form action="{% url 'splash' %}" method="POST">
+		{% csrf_token %}
+		Name:  <input type="text" name="name">
+		<br><br>Email:  <input type="email" name="email">
+		<div class="formalign">
+			<br><textarea type="text" name="message" rows="8" cols="50"></textarea>
+			<br><br><input type="submit">
+		</div>
+		</form>
+		</div>
+	</div>
+</body>
+
+</html>

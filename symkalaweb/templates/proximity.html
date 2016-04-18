@@ -1,0 +1,36 @@
+{% extends "interface.html" %}
+
+{% block head %}
+<title> Visualize </title>
+
+{% load staticfiles %}
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.3/mapbox.css' rel='stylesheet' />
+
+<link rel="stylesheet" href="{% static 'css/visualize.css' %}?{% now 'U' %}">
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+
+<script src="{% static 'js/PapaParse-4.1.2/papaparse.js' %}"></script>
+
+<script src='http://d3js.org/d3.v3.min.js'></script>
+
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+<script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+<body>
+<script>
+	var fileName = "{{fileName}}";
+	var forceFileName = "{{forceFileName}}";
+</script>
+<script src="{% static 'js/proximity.js' %}?{% now 'U' %}"></script>
+{% endblock %}
+
+{% block visualize %}
+<img class="imgNav" src="{% static 'images/Visualize_Selected.png' %}">
+{% endblock %}
+

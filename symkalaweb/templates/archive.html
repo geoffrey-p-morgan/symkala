@@ -1,0 +1,197 @@
+{% extends "interface.html" %}
+
+{% block head %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/archive.css' %}?{% now 'U' %}">
+<link rel="stylesheet" href="{% static 'css/iThing-min.css' %}?{% now 'U' %}">
+
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://malsup.github.com/jquery.form.js"></script>
+
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+
+
+<script src="{% static 'js/archive.js' %}?{% now 'U' %}"></script>
+<script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'js/mixitup.js' %}"></script>
+<script src="{% static 'js/imagesloaded.js' %}"></script>
+<script src="{% static 'js/jQAllRangeSliders-min.js' %}"></script>
+{% endblock %}
+
+{% block tools %} 
+<div id="formContainer"> 
+	<button id="popup" onclick="upload_show()">Upload Data</button>
+</div>
+{% endblock %}
+
+{% block archive %}
+<img class="imgNav" src="{% static 'images/archive_selected.png' %}">
+{% endblock %}
+
+{% block workspace %}
+<div id="popupContainer">
+	<!-- Pop up starts Here -->
+	<div id="popupForm">
+		<div id="navTab">
+			<div class="activeTab" id="localUpload"> Upload Data </div><div id="twitter"> Twitter Upload </div>
+		</div>
+		<div id="localFormDiv">
+			<!--<img class="mediaIcons" src="{% static 'images/header_icons.png' %}">-->
+			<form class="popupForm" action="{% url 'archive' %}" method="POST" enctype="multipart/form-data">
+				{% csrf_token %}
+				<img id="close" src="{% static 'images/Close-icon.png' %}" onClick = "upload_hide()">
+				<h2> Upload Data</h2>
+				<hr>
+				<input id="name" name="name" placeholder="Enter Dataset Name" type="text">
+				<div id="dataSelect">
+					Select data: <input type="file" name="data" multiple> 
+				</div>
+				<div class="tooltip">(accepted file types: .jpg,.png,.gif,.txt,.pdf)</div>
+				<button type="submit">Upload</button>
+			</form>
+		</div>
+		<div id="twitterFormDiv">
+			<form id="twitterForm" class="popupForm" action="{% url 'twitter' %}" method="POST">
+				{% csrf_token %}
+				<img class="imgclose" id="close" src="{% static 'images/Close-icon.png' %}" onClick = "upload_hide()">
+				<input id="query" name="query" placeholder="enter search term" type="text">
+				<button type="submit"> Search </button>
+			</form>
+		</div>
+	</div>
+	<div class="progress">
+		<div class="bar"></div>
+		<div class="percent">0%</div>
+	</div>
+	<div id="status"></div>
+</div>
+<section id="container" class="image-grid">
+{% for item in data %}
+	<div class="data mix image_cell is-collapsed" data-id="{{item.id}}" data-date="{{item.date|date:'Y-m-d'}}">
+		<div class="image--basic">
+			{% if item.name|length >= 20 %}
+			<div class="label">{{item.name|truncatechars:16}}{{item.name|slice:"-4:"}}</div>
+			{% else %}
+			<div class="label">{{item.name}}</div>
+			{% endif %}
+			<a href="#expand-jump-{{item.id}}">
+				<img id="expand-jump-{{item.id}}" class="basic_img" src="/api/{{item.file.id}}" data-id="{{item.id}}" alt="{{item.name}}" title="{{item.name}}">
+			</a>
+			<div class="arrow--up"></div>
+		</div>
+		<div class="image--expand">
+			<a href="#close-jump-{{item.id}}" class="expand_close"></a>
+			<div class="dataTray">
+				<div class="preview">
+					{% if "image" in item.file.type %}
+						<img class="image--large" src="/api/{{item.file.id}}">
+					{% else %}
+						<div class="textPreview" data-id="{{item.id}}" data-type="{{item.file.type}}" data-name="{{item.name}}"></div>
+					{% endif %}
+				</div>
+				<div id="dataTools">
+				</div>
+			</div>
+			<div id="dataTags">
+				{% for tag in item.tag_set.all %}
+					<div class="tag">{{tag}}</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+{% endfor %}
+</section>
+{% endblock %}
+
+{% block mod %}
+<form action="{% url 'deleteBatchData' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend> Delete Data : </legend>
+		<input type="hidden" id="dataToDelete" name="dataToDelete" value="">
+		<button type="submit">Delete Data</button>
+	</fieldset>
+</form>
+
+<br>
+
+<form action="{% url 'tag' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Add Tags : </legend>
+		<input type="text" name="tag">
+		{{tagForm}}
+		<input type="hidden" id="data" name="data" value="">
+		<button type="submit">Add Tag</button>
+	</fieldset>
+</form>
+
+<form action="{% url 'removeTag' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Remove Tags : </legend>
+		{{tagForm}}
+		<input type="hidden" id="dataToRemoveTagFrom" name="dataToRemoveTagFrom" value="">
+		<button type="submit">Remove Tag</button>
+	</fieldset>
+</form>
+
+<form action="{% url 'deleteTag' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Delete Tags : </legend>
+		{{tagForm}}
+		<button type="submit">Delete Tag</button>
+	</fieldset>
+</form>
+
+<br>
+
+<form action="{% url 'createCard' %}" id="newCard"  method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Create Cards : </legend>
+		<div><label for="name">Card Name:</label></div><input type="text" name="cardName" id="cardName" size="30"/>
+		{{form}}
+		<input type="hidden" id="cardData" name="cardData" value="">
+		<input type="submit" value="Create Card" name="createCard">
+	</fieldset>
+</form>
+
+<form action="{% url 'deleteCard' %}" id="deleteCard" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend> Delete Cards : </legend>
+		{{form}}
+		<input type="hidden" id="cardData" name="cardData" value="">
+		<input type="submit" value="Delete Card" name="deleteCard">
+	</fieldset>
+</form>
+
+{% endblock %}
+
+{% block filters %}
+<div id="slider"></div>
+<div id="showAll">
+	<div data-filter="all" class="filter tag">Show All</div>
+</div>
+<div id="tags">
+	{% for tag,count in tags.items %}
+	<div class="tagContainer">
+		<div data-filter=".{{tag}}" data-count="{{count}}" class="filter tag">{{tag}}({{count}})</div>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}
+
+{% block script %}
+var hasData = ("{{hasData}}" === "True")
+var minDateYear = "{{minDateYear}}"
+var minDateMonth = "{{minDateMonth}}"
+var minDateDay = "{{minDateDay}}"
+var maxDateYear = "{{maxDateYear}}"
+var maxDateMonth = "{{maxDateMonth}}"
+var maxDateDay = "{{maxDateDay}}"
+{% endblock %}

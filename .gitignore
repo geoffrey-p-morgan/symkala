@@ -1,0 +1,6 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml*.csv*.db*.jsstatic/**
+static/admin/*static/css/*static/data/*static/files/*static/images/*static/img/*static/jQRangeSlider-5.7.2/*static/js/*

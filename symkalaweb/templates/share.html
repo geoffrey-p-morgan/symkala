@@ -1,0 +1,19 @@
+{% extends 'interface.html' %}
+
+{% block head %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/share.css' %}?{% now 'U' %}">
+
+{% endblock %}
+
+{% block tools %}
+<img src="{% static 'images/share_tools.png' %}">
+{% endblock %}
+
+{% block workspace %}
+<img src="{% static 'images/share_display.png' %}">
+{% endblock %}
+
+{% block mod %}
+<img src="{% static 'images/share_filters.png' %}">
+{% endblock %}

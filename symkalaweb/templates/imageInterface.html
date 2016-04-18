@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'css/interface.css' %}?{% now 'U' %}">
+	
+	<link rel='shortcut icon' href="{% static 'images/favicon.ico' %}"type='image/x-icon'>
+	
+	<script src="{% static 'js/jquery-2.1.4.js' %}"></script>
+	<script src="{% static 'js/csrf.js' %}"></script>
+	{% block head %}
+	<title> Symkala </title>
+	{% endblock %}
+</head>
+
+<body>
+<div class="section group">
+	<div id="nav" class="col span_1_of_4">
+	{% block nav %}
+	<div><a href="{% url 'login' %}">Login</a> / <a href="{% url 'logout' %}">Logout</a></div>
+	<br>
+	<a href="{% url 'account' %}">Account</a>
+	
+	<br><br><br><br>
+	
+	<div><a href="{% url 'archive' %}"><img class="imgNav" src="{% static 'images/archive.png' %}"></a></div>
+	<div><a href="{% url 'manage' %}"><img class="imgNav" src="{% static 'images/manage.png' %}"></a></a></div>
+	<div><a href="{% url 'visualize' %}"><img class="imgNav" src="{% static 'images/vizualize.png' %}"></a></a></div>
+	<div><img class="imgNav" src="{% static 'images/share_icon.png' %}"></div>
+	
+	
+	<div><img class="imgNav market" src="{% static 'images/market.png' %}"></div>
+	{% endblock %}
+	</div>
+	<div class="col span_3_of_4">
+        <div id="display" class="col span_4_of_4" style="height:700px;overflow:auto;">
+		{% block workspace %}
+		{% endblock %}
+		</div>
+	</div>
+	<div id="mods" class="col span_2_of_4">
+	{% block mod %}
+	{% endblock %}
+	</div>
+</div>
+
+<script>
+{% block script %}
+{% endblock %}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+{% extends "interface.html" %}
+
+{% block head %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/archive.css' %}?{% now 'U' %}">
+
+<script src="{% static 'js/archive.js' %}"></script>
+<script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'js/imagesloaded.js' %}"></script>
+{% endblock %}
+
+{% block tools %}
+<div id="formContainer"> 
+	<img class="mediaIcons" src="{% static 'images/header_icons.png' %}">
+
+<form action="{% url 'archive' %}" method="POST" enctype="multipart/form-data">
+	{% csrf_token %}
+	Select data: <input type="file" name="data" multiple>
+	<button type="submit">Upload</button>
+</form>
+
+</div>
+{% endblock %}
+
+{% block workspace %}
+{% for item in data %}
+	<img class="img data" src="/api/{{item.file.id}}" data-id="{{item.id}}">
+{% endfor %}
+{% endblock %}
+
+{% block mod %}
+<form id="deleteData" action="{% url 'deleteBatchData' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend> Delete Data : </legend>
+		<input type="hidden" id="dataToDelete" name="dataToDelete" value="">
+		<button type="submit">Delete Data</button>
+	</fieldset>
+</form>
+
+<br><br>
+
+<form id="tag" action="{% url 'tag' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Add Tags : </legend>
+		<input type="text" name="tag">
+		<div><label for="tags">Select Existing Tag:</label></div>{{tagForm}}
+		<input type="hidden" id="data" name="data" value="">
+		<button type="submit">Add Tag</button>
+	</fieldset>
+</form>
+
+<br>
+
+<form id="removeTag" action="{% url 'removeTag' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Remove Tags : </legend>
+		<div><label for="tags">Select Existing Tag:</label></div>{{tagForm}}
+		<input type="hidden" id="dataToRemoveTagFrom" name="dataToRemoveTagFrom" value="">
+		<button type="submit">Remove Tag</button>
+	</fieldset>
+</form>
+
+<br>
+
+<form id="deleteTag" action="{% url 'deleteTag' %}" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Delete Tags : </legend>
+		<div><label for="tags">Select Existing Tag:</label></div>{{tagForm}}
+		<button type="submit">Delete Tag</button>
+	</fieldset>
+</form>
+
+<br><br>
+
+<form id="createCard" action="{% url 'createCard' %}" id="newCard"  method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend>Create Cards : </legend>
+		<div><label for="name">Card Name:</label></div><input type="text" name="cardName" id="cardName" size="30"/>
+		<div><label for="cards">Select Existing Card:</label></div>{{form}}
+		<input type="hidden" id="cardData" name="cardData" value="">
+		<input type="submit" value="createCard" name="createCard">
+	</fieldset>
+</form>
+
+<form id="deleteCard" action="{% url 'deleteCard' %}" id="deleteCard" method="POST">
+	{% csrf_token %}
+	<fieldset>
+		<legend> Delete Cards : </legend>
+		<div><label for="cards">Select Existing Card:</label></div>{{form}}
+		<input type="hidden" id="cardData" name="cardData" value="">
+		<input type="submit" value="Delete Card" name="deleteCard">
+	</fieldset>
+</form>
+
+{% endblock %}
+
+{% block filters %}
+{% for tag,count in tags.items %}
+<div class="tagContainer">
+	<button data-filter=".{{tag}}" class="tag">{{tag}}({{count}})</button>
+</div>
+{% endfor %}
+<div>
+	<button data-filter="*" class="tag">Show All</button>
+</div>
+
+{% endblock %}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+	{% load staticfiles %}
+	<link rel='shortcut icon' href="{% static 'images/favicon.ico' %}"type='image/x-icon'>
+	
+	<link rel="stylesheet" href="{% static 'css/interface.css' %}?{% now 'U' %}">
+	
+	<script src="{% static 'js/jquery-2.1.4.js' %}"></script>
+	<script src="{% static 'js/csrf.js' %}"></script>
+	{% block head %}
+	<title> Symkala </title>
+	{% endblock %}
+</head>
+
+<body>
+{% block body %}
+{% endblock %}
+<div class="section group">
+	<div id="nav" class="col span_1_of_4">
+	{% block nav %}
+	<div>
+	<a href="{% url 'login' %}">Login</a> / <a href="{% url 'logout' %}">Logout</a></div>
+	<br>
+	<a href="{% url 'account' %}">Account</a>
+	
+	<br><br><br><br>
+	
+	<div><a href="{% url 'archive' %}">{% block archive %}<img class="imgNav" src="{% static 'images/archive_NOT_selected.png' %}">{% endblock %}</a></div>
+	<div><a href="{% url 'manage' %}">{% block manage %}<img class="imgNav" src="{% static 'images/Manage_NOT_select.png' %}"></a>{% endblock %}</div>
+	<div><a href="{% url 'visualize' %}">{% block vis %}<img class="imgNav" src="{% static 'images/Vizualize_NOT_Selected.png' %}"></a>{% endblock %}</div>
+	
+	
+	<!--<div><img class="imgNav market" src="{% static 'images/market.png' %}"></div>-->
+	{% endblock %}
+	</div>
+	<div class="col span_3_of_4">
+    	<div id="tools" class="col span_4_of_4" style="margin-top: 0; height:80px;">
+			<ul id="sections">
+			</ul>
+			{% block tools %}
+			{% endblock %}
+		</div>
+        <div id="display" style="height:400px;" class="col span_4_of_4">
+		{% block workspace %}
+		{% endblock %}
+		</div>
+        <div id="filters" class="col span_4_of_4" style="height:190px;">
+		{% block filters %}
+		{% endblock %}
+		</div>
+	</div>
+	<div id="mods" class="col span_2_of_4">
+	{% block mod %}
+	{% endblock %}
+	</div>
+</div>
+
+<script>
+{% block script %}
+{% endblock %}
+</script>
+
+<script>
+	var num = 0;
+	var displays = [];
+	var filters = [];
+	var mods = [];
+	var navs = [];
+	
+	var addSection = function(id) {
+		console.log("adding section!");
+		
+		var sections = document.getElementById('sections');
+		var section = document.createElement('li');
+		if(id !== undefined) {
+			section.setAttribute("id","section_" + id);
+			$(section).text(id);
+		} else {
+			section.setAttribute("id","section_" + num);
+			$(section).text("tab #" + num);
+		}
+		section.addEventListener('click',change);
+		sections.appendChild(section);
+		
+		var display = document.createElement('div');
+		var filter = document.createElement('div');
+		var mod = document.createElement('div');
+		var nav = document.createElement('div');
+
+		display.setAttribute("id","display");
+		filter.setAttribute("id","filters");
+		mod.setAttribute("id","mods");
+		nav.setAttribute("id","nav");
+			
+		display.setAttribute("class","col span_4_of_4 main_content");
+		display.setAttribute("style","height:600px;");
+		$(display).text("I am num " + num + " display");
+		
+		filter.setAttribute("class","col span_4_of_4 filter_content");
+		filter.setAttribute("style","height:190px;");
+		
+		mod.setAttribute("class","col span_2_of_4 mod_content");
+		
+		nav.setAttribute("class","col span_1_of_4 nav_content");
+		
+		displays.push(display);
+		filters.push(filter);
+		mods.push(mod);
+		navs.push(nav);
+		
+		num++;	
+	}
+	
+	function change() {
+		console.log("changing section");
+	
+		$("#sections li").each(function(){
+			$(this).removeClass("active");
+		});
+		$(this).addClass("active");
+		
+		var tabs = $("ul#sections").children();
+		var index = tabs.index(this);
+		var display = displays[index];
+		var filter = filters[index];
+		var mod = mods[index];
+		var nav = navs[index];
+		
+		$("div#display").replaceWith($(display));
+		$("div#filters").replaceWith($(filter));
+		$("div#mods").replaceWith($(mod));
+		//$("div#nav").replaceWith($(nav));
+	}
+</script>
+</body>
+</html>

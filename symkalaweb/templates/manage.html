@@ -1,0 +1,40 @@
+{% extends "interface.html" %}
+
+{% block head %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/manage.css' %}?{% now 'U' %}">
+<script src="{% static 'js/manage.js' %}"></script>
+{% endblock %}
+
+{% block tools %}
+<div class="recentCardTitle"> Most Recent Cards </div>
+<div id="recentCards">
+	{% for card in recentCards %}
+		<div class="recentCard card" data-id="{{card.id}}">
+			<span class="cardContent">{{card}} </span>
+		</div>
+	{% endfor %}
+</div>
+{% endblock %}
+
+{% block workspace %}
+<div class="allCardTitle"> All Cards </div>
+
+<br>
+
+<div id="allCards">
+{% for card in allCards %}
+	<div class="allCard card" data-id="{{card.id}}">
+		<span class="cardContent">{{card}} </span>
+	</div>
+{% endfor %}
+</div>
+{% endblock %}
+
+{% block filters %}
+<form action="{% url 'manage' %}" method="POST">
+	{% csrf_token %}
+	<input type="hidden" id="cards" name="cards" value="">
+	<button type="submit"> View Selected Cards </button>
+</form>
+{% endblock %}

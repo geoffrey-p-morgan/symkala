@@ -1,0 +1,9 @@
+{% extends "interface.html" %}
+
+{% block workspace %}
+{{user.first_name}}
+{{user.last_name}}
+
+<a href="{% url 'passwordchange' %}"> Change password </a>
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "interface.html" %}
+
+{% block head %}
+<title> Visualize </title>
+
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/visualize.css' %}?{% now 'U' %}">
+<link rel="stylesheet" href="{% static 'css/dragula.css' %}?{% now 'U' %}">
+<link rel="stylesheet" href="{% static 'css/scatter.css' %}?{% now 'U' %}">
+
+<script src="{% static 'js/PapaParse-4.1.2/papaparse.js' %}"></script>
+<script src='http://d3js.org/d3.v3.min.js'></script>
+
+<script src="{% static 'js/jquery-2.1.4.js' %}"></script>
+<script src="{% static 'js/sylvester.js' %}"></script>
+<script src="{% static 'js/lyric.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+<script src="{% static 'js/dragula.js' %}"></script>
+
+<script>
+	var fileName = "{{fileName}}";
+</script>
+<script src="{% static 'js/scatter.js' %}?{% now 'U' %}"></script>
+
+{% endblock %}
+
+{% block mod %}
+<img src="{% static 'images/linreg.png' %}">
+<button onClick="removeAnalysis()"> Remove Analysis </button>
+{% endblock %}
+
+{% block visualize %}
+<img class="imgNav" src="{% static 'images/Visualize_Selected.png' %}">
+{% endblock %}
+

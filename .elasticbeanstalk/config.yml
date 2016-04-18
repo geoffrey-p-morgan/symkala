@@ -1,0 +1,11 @@
+branch-defaults:
+  master:
+    environment: symkala-dev5
+    group_suffix: null
+global:
+  application_name: symkala
+  default_ec2_keyname: symkala
+  default_platform: Python 2.7
+  default_region: us-east-1
+  profile: eb-cli
+  sc: git
