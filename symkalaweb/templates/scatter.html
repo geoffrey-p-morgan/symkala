@@ -26,8 +26,27 @@
 
 {% endblock %}
 
+{% block workspace %}
+<div id="popupContainer">
+	<!-- Pop up starts Here -->
+	<div id="popupForm">
+		<div id="localFormDiv">
+			<form id="bucketSize" class="popupForm" enctype="multipart/form-data" onsubmit="return graphMovingAverage()">
+				{% csrf_token %}
+				<img id="close" src="{% static 'images/Close-icon.png' %}" onClick = "popup_hide()">
+				<h2> Enter Bucket Size</h2>
+				<hr>
+				<input id="size" name="size" placeholder="Enter Bucket Size" type="text" onkeypress="return isNumber(event)">
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
 {% block mod %}
-<img src="{% static 'images/linreg.png' %}">
+<img id="bestfit" src="{% static 'images/linreg.png' %}">
+<img id="movingaverage" src="{% static 'images/movingaverage.jpg' %}">
 <button onClick="removeAnalysis()"> Remove Analysis </button>
 {% endblock %}
 
