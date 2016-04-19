@@ -71,5 +71,5 @@ urlpatterns = [
 	url(r'^textPreview/(?P<dataId>(\d+))/$',views.textPreview,name='textPreview'),
 	url(r'^cliff/(?P<text>[\w\ ]+)',views.cliff,name='cliff'),
 	
-	url(r'^$',views.login,name='splash'),
+	url(r'^$','django.contrib.auth.views.login',{'template_name':'login.html'},name='splash'),
 ] + static(settings.STATIC_URL,document_root = settings.STATIC_ROOT)
