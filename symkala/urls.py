@@ -71,5 +71,5 @@ urlpatterns = [
 	url(r'^textPreview/(?P<dataId>(\d+))/$',views.textPreview,name='textPreview'),
 	url(r'^cliff/(?P<text>[\w\ ]+)',views.cliff,name='cliff'),
 	
-	url(r'^$',views.splash,name='splash'),
+	url(r'^$',views.login,name='splash'),
 ] + static(settings.STATIC_URL,document_root = settings.STATIC_ROOT)
