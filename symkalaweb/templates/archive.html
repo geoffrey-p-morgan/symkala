@@ -45,6 +45,8 @@
 				<h2> Upload Data</h2>
 				<hr>
 				<input id="name" name="name" placeholder="Enter Dataset Name" type="text">
+				<input id="group" name="group" placeholder="Enter Group Name to Share With" type="text">
+				<input id="tags" name="tags" placeholder="Add Tags" type="text">
 				<div id="dataSelect">
 					Select data: <input type="file" name="data" multiple> 
 				</div>
@@ -57,6 +59,14 @@
 				{% csrf_token %}
 				<img class="imgclose" id="close" src="{% static 'images/Close-icon.png' %}" onClick = "upload_hide()">
 				<input id="query" name="query" placeholder="enter search term" type="text">
+				<fieldset>
+					<legend> Filter (check to limit search) </legend>
+						<input type="checkbox" name="filter" value="user"> User </input>
+						<input type="checkbox" name="filter" value="geo"> Geotagged </input>
+						<input type="checkbox" name="filter" value="date"> Date </input>
+						<input type="checkbox" name="filter" value="body"> Body </input>
+						<input type="checkbox" name="filter" value="tag"> Hashtag </input>
+				</fieldset>
 				<button type="submit"> Search </button>
 			</form>
 		</div>

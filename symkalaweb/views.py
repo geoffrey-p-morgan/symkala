@@ -301,6 +301,8 @@ def visualize(request):
 					rowY = row[str(y)]
 					writer.writerow({"x":rowX,"y":rowY})
 			if typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvProx" or typeOfAnalysis == "csvTin":
+				lat = request.POST["lat"]
+				lon = request.POST["lon"]
 				if str(data.file.file).endswith("csv"):
 					db = data.name
 					conn = sqlite3.connect(db)
@@ -310,8 +312,8 @@ def visualize(request):
 					values = c.fetchall()
 					for row in values:
 						id = row[0]
-						latitude = row["latitude"]
-						longitude = row["longitude"]
+						latitude = row[str(lat)]
+						longitude = row[str(lon)]
 						if "tags" in row.keys():
 							tags = row["tags"]
 						else:

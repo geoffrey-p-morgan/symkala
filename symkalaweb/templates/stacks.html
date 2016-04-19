@@ -29,10 +29,10 @@
 {% endblock %}
 
 {% block workspace %}
-<div id="popupContainer">
+<div id="popupContainer" class="popupContainer">
 	<!-- Pop up starts Here -->
-	<div id="popupForm">
-		<div id="navTab">
+	<div id="popupForm" class="popupForm">
+		<div class="navTab">
 			<div class="activeTab" id="localUpload"> Select Columns </div>
 		</div>
 		<div id="localFormDiv">
@@ -41,8 +41,27 @@
 				<img id="close" src="{% static 'images/Close-icon.png' %}" onClick = "upload_hide()">
 				<div> Select X: <select name="x" id="x"></select> </div>
 				<div> Select Y: <select name="y" id="y"></select> </div>
-				<input type="hidden" class="data" id="dataSelect" name="data" value="">
+				<input type="hidden" class="data" class="dataSelect" name="data" value="">
 				<input type="hidden" name="analysis" value="scatter">
+				<button type="submit">Visualize</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="csvContainer" class="popupContainer">
+	<!-- Pop up starts Here -->
+	<div id="csvForm" class="popupForm">
+		<div class="navTab">
+			<div class="activeTab" id="localUpload"> Select Columns </div>
+		</div>
+		<div id="csvFormDiv">
+			<form class="popupForm" action="{% url 'visualize' %}" method="POST" enctype="multipart/form-data">
+				{% csrf_token %}
+				<img id="close" src="{% static 'images/Close-icon.png' %}" onClick = "csv_hide()">
+				<div> Select Latitude: <select name="lat" id="lat"></select> </div>
+				<div> Select Longitude: <select name="lon" id="lon"></select> </div>
+				<input type="hidden" class="data" class="dataSelect" name="data" value="">
+				<input type="hidden" name="analysis" id="analysis" value="">
 				<button type="submit">Visualize</button>
 			</form>
 		</div>
