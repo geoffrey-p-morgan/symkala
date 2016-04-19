@@ -248,7 +248,7 @@ def manage(request):
 		context['cards'] = cards
 		return render(request,"stacks.html",context)
 	else:
-		mostRecentCards = Card.objects.order_by('-id').filter(owners=request.user)[:5]
+		mostRecentCards = Card.objects.order_by('-id').filter(owners=request.user)
 		allCards = Card.objects.filter(owners=request.user)
 		context['recentCards'] = mostRecentCards
 		context['allCards'] = allCards
