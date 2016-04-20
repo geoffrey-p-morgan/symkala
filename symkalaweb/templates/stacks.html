@@ -21,7 +21,7 @@
 {% endblock %}
 
 {% block mod %}
-<form id="analysis" action="{% url 'visualize' %}" method="POST">
+<form id="analysisform" action="{% url 'visualize' %}" method="POST">
 	{% csrf_token %}
 	<input type="hidden" class="data" id="data" name="data" value="">
 </form>
