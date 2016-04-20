@@ -300,7 +300,7 @@ def visualize(request):
 					rowX = row[str(x)]
 					rowY = row[str(y)]
 					writer.writerow({"x":rowX,"y":rowY})
-			if typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvProx" or typeOfAnalysis == "csvTin":
+			if typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvCluster" or typeOfAnalysis == "csvTin":
 				lat = request.POST["lat"]
 				lon = request.POST["lon"]
 				if str(data.file.file).endswith("csv"):
@@ -344,7 +344,7 @@ def visualize(request):
 					writer.writerow({'fulcrum_id': data.name,'FacilityType': tagList,'latitude':data.lat,'longitude':data.lon})
 	csvFile.close()
 			
-	if typeOfAnalysis == "proximity network" or typeOfAnalysis == "csvProx":
+	if typeOfAnalysis == "cluster" or typeOfAnalysis == "csvCluster":
 		return redirect("proximity",csvFileName)
 	elif typeOfAnalysis == "heat" or typeOfAnalysis == "csvHeat":
 		return redirect("heat",csvFileName)
@@ -436,7 +436,7 @@ def analysis(request):
 			if data.lat != None and data.lon != None:
 				analysis["heat"] = True
 				analysis["Triangulated Irregular Network"] = True
-				analysis["proximity network"] = True
+				analysis["cluster"] = True
 			if str(data.file.file).endswith(".csv"):
 				db = data.name
 				print db
@@ -447,7 +447,7 @@ def analysis(request):
 				metaData = [''.join(x) for x in metaData]
 				metaData = [x.lower() for x in metaData]
 				if "latitude" in metaData and "longitude" in metaData:
-					analysis["csvProx"] = True
+					analysis["csvCluster"] = True
 					analysis["csvHeat"] = True
 					analysis["csvTin"] = True
 				analysis["scatter"] = True
