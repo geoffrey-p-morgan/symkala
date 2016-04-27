@@ -17,6 +17,8 @@ from django.core.files.base import ContentFile
 from django.core.cache import cache
 from django.core.files import File
 
+from django.conf import settings
+
 from django.db.models import Min,Max
 
 from django.contrib.staticfiles.templatetags.staticfiles import static
@@ -40,7 +42,7 @@ from sets import Set
 
 import json 
 
-import boto
+import tinys3
 
 import tweepy
 import sqlite3
@@ -141,6 +143,8 @@ def archive(request):
 			newFile.save()
 			
 			if fileType.startswith('image'):
+				newFile.image = file
+				newFile.save()
 				exif_data = False 
 				lat = None
 				lon = None
@@ -181,8 +185,9 @@ def archive(request):
 				newDataSet.data.add(new_data)
 				newDataSet.save()
 			elif file.name.endswith("csv"):
-				dataBaseName = file.name[:-4] + ".db"
-				conn = sqlite3.connect(dataBaseName)
+				dataBaseName = "db/" + file.name[:-4] + ".db"
+				default_storage.open(dataBaseName,"w+")
+				conn = sqlite3.connect(settings.STATIC_URL + dataBaseName)
 				conn.text_factory = str
 				reader = csv.reader(file)
 				tableFields = "("
