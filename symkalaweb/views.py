@@ -233,9 +233,15 @@ def twitter(request):
 	if request.method == "POST":
 		query = request.POST["query"]
 		statuses = []
-		tweets = tweepy.Cursor(api.search).items(10)
+		tweets = tweepy.Cursor(api.search,q=query,count=10).items(10)
 		for status in tweets:
 			statuses.append(status.text)
+			tweet = Twitter(tweet=status.text,author=status.author.screen_name,type="twitter")
+			tweet.save()
+			new_data = Data(name="twitter" + str(status.id),file=tweet)
+			new_data.save()
+			new_data.owners.add(request.user)
+			new_data.save()
 		return JsonResponse({"status": statuses})
 	else:
 		return redirect("archive")
@@ -548,6 +554,9 @@ def textPreview(request,dataId):
 		c.execute("SELECT * FROM metadata")
 		metaData = c.fetchall()
 		return JsonResponse({"meta":metaData,"values":tableData})
+	elif data.file.type == "twitter":
+		response = {"status": data.file.twitter.tweet,"author":data.file.twitter.author}
+		return JsonResponse(response)
 	else:
 		return HttpResponse("file type preview not supported yet")
 	
@@ -721,6 +730,8 @@ def img_api(request,img_id):
 			return HttpResponse(default_storage.open("images/pdf.png"))
 		elif str(img.file).endswith(".csv"):
 			return HttpResponse(default_storage.open("images/csv.png"))
+		elif img.type == "twitter":
+			return HttpResponse(default_storage.open("images/twitter.png"))
 	except:
 		return
 		

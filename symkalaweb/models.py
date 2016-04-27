@@ -13,6 +13,12 @@ from datetime import datetime
 class File(models.Model):
 	file = models.FileField(upload_to="static/files")
 	type = models.CharField(max_length=30,default=None)
+	
+class Twitter(File):
+	tweet = models.CharField(max_length=500,blank=True)
+	author = models.CharField(max_length=100,blank=True)
+	
+Twitter._meta.get_field("file").blank = True
 
 class Keyword(models.Model):
 	name = models.CharField(max_length=50)
