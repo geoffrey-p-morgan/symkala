@@ -185,12 +185,12 @@ def archive(request):
 				newDataSet.save()
 			elif file.name.endswith("csv"):
 				dataBaseName = "db/" + file.name[:-4] + ".db"
+				tmpDb = file.name[:-4] + ".db"
 				c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
 				b = c.lookup("symkaladev6")
 				k = b.new_key(dataBaseName)
 				k.set_contents_from_string("")
-				print settings.STATIC_URL + dataBaseName
-				conn = sqlite3.connect("https://s3.amazonaws.com/symkaladev6/" + dataBaseName)
+				conn = sqlite3.connect(tmpDb)
 				conn.text_factory = str
 				reader = csv.reader(file)
 				tableFields = "("
@@ -224,6 +224,7 @@ def archive(request):
 				new_data.save()
 				newDataSet.data.add(new_data)
 				newDataSet.save()
+				k.set_contents_from_filename(tmpDb)
 	data = Data.objects.filter(owners=request.user.id)
 	context['data'] = data
 	return render(request,"archive.html",context)
@@ -298,7 +299,15 @@ def visualize(request):
 				x = request.POST["x"]
 				y = request.POST["y"]
 				db = data.name
-				conn = sqlite3.connect(db)
+				
+				
+				c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+				b = c.lookup("symkaladev6")
+				k = b.new_key(db)
+				tmpDb = "tmp.db"
+				k.get_contents_to_filename(tmpDb)
+				
+				conn = sqlite3.connect(tmpDb)
 				conn.row_factory = sqlite3.Row
 				c = conn.cursor()
 				queryString = "SELECT %s, %s FROM datavalues" % (x,y)
@@ -313,7 +322,14 @@ def visualize(request):
 				lon = request.POST["lon"]
 				if str(data.file.file).endswith("csv"):
 					db = data.name
-					conn = sqlite3.connect(db)
+					
+					c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+					b = c.lookup("symkaladev6")
+					k = b.new_key(db)
+					tmpDb = "tmp.db"
+					k.get_contents_to_filename(tmpDb)
+					
+					conn = sqlite3.connect(tmpDb)
 					conn.row_factory = sqlite3.Row
 					c = conn.cursor()
 					c.execute("SELECT rowid, * FROM datavalues")
@@ -416,7 +432,14 @@ def getColumnOptions(request):
 		for data in cardData:
 			if str(data.file.file).endswith(".csv"):
 				db = data.name
-				conn = sqlite3.connect(db)
+				
+				c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+				b = c.lookup("symkaladev6")
+				k = b.new_key(db)
+				tmpDb = "tmp.db"
+				k.get_contents_to_filename(tmpDb)
+				
+				conn = sqlite3.connect(tmpDb)
 				c = conn.cursor()
 				c.execute("SELECT * FROM metadata")
 				metaData = c.fetchall()
@@ -447,8 +470,14 @@ def analysis(request):
 				analysis["cluster"] = True
 			if str(data.file.file).endswith(".csv"):
 				db = data.name
-				print db
-				conn = sqlite3.connect(db)
+				
+				c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+				b = c.lookup("symkaladev6")
+				k = b.new_key(db)
+				tmpDb = "tmp.db"
+				k.get_contents_to_filename(tmpDb)
+				
+				conn = sqlite3.connect(tmpDb)
 				c = conn.cursor()
 				c.execute("SELECT * FROM metadata")
 				metaData = c.fetchall()
@@ -505,8 +534,14 @@ def textPreview(request,dataId):
 		return response
 	elif str(data.file.file).endswith(".csv"):
 		db = data.name
-		print db
-		conn = sqlite3.connect(db)
+		
+		c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+		b = c.lookup("symkaladev6")
+		k = b.new_key(db)
+		tmpDb = "tmp.db"
+		k.get_contents_to_filename(tmpDb)
+		
+		conn = sqlite3.connect(tmpDb)
 		c = conn.cursor()
 		c.execute("SELECT * FROM datavalues")
 		tableData = c.fetchall()
