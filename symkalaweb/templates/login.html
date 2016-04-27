@@ -2,26 +2,51 @@
 
 {% block head %}
 {% load staticfiles %}
-<link rel="stylesheet" href="{% static 'css/login.css' %}?{% now 'U' %}">
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
+<link rel="stylesheet" href="{% static 'css/login.css' %}?{% now 'U' %}">
 {% endblock %}
 
 {% block content %}
+<div class="container">
+	<div class="formcontainer">
+		<div id="form">
+			<form method="post" action="{% url 'login' %}">
+				{% csrf_token %}
+				<div id="inputs">
+					<input class="loginform" id="id_username" maxlength="254" name="username" type="text" placeholder="Username">
+					<input class="loginform" id="id_password" name="password" type="password" placeholder="Password">
+					<button class="loginform" type="submit">Login </button>
+					<input type="hidden" name="next" value="{{next}}">
+				</div>
+			</form>
+		</div>
 
-<form method="post" action="{% url 'login' %}">
-	{% csrf_token %}
-	<fieldset>
-		<legend> Login : </legend>
-		{{form.non_field_errors}}
-		{{form}}
-		<button type="submit">Login </button>
-		<input type="hidden" name="next" value="{{next}}">
-	</fieldset>
-</form>
+		<div id="registerContainer">
+			<a id="register" href="{% url 'register' %}">Register</a>
+			<p> Forgot your password? <a href="{% url 'reset' %}">Reset</a> it here.</p>
+		</div>
+	</div>
 
-<div>
-	<a href="{% url 'register' %}">Register</a>
-	<p> Forgot your password? <a href="{% url 'reset' %}">Reset</a> it here.</p>
+	<div id="sym"> Symkala </div>
 </div>
+
+<footer id="footer">
+	<table id="nav">
+		<tr>
+			<td> <a> About </a> </td>
+			<td> <a> Technical Guides </a> </td>
+		</tr>
+		<tr>
+			<td> <a> Contact </a> </td>
+			<td> <a> Security </a> </td>
+		</tr>
+		<tr>
+			<td> <a> Careers </a> </td>
+			<td> <a> More Information </a> </td>
+		</tr>
+	</table>
+</footer>
+
 
 {% endblock %}
