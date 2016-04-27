@@ -41,6 +41,7 @@ from subprocess import Popen, PIPE, STDOUT
 from sets import Set
 
 import json 
+import boto
 
 import tweepy
 import sqlite3
@@ -184,10 +185,12 @@ def archive(request):
 				newDataSet.save()
 			elif file.name.endswith("csv"):
 				dataBaseName = "db/" + file.name[:-4] + ".db"
-				db = default_storage.open(dataBaseName,"w+")
-				db.write("")
-				db.close()
-				conn = sqlite3.connect(settings.STATIC_URL + dataBaseName)
+				c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+				b = c.lookup("symkaladev6")
+				k = b.new_key(dataBaseName)
+				k.set_contents_from_string("")
+				print settings.STATIC_URL + dataBaseName
+				conn = sqlite3.connect("https://s3.amazonaws.com/symkaladev6/" + dataBaseName)
 				conn.text_factory = str
 				reader = csv.reader(file)
 				tableFields = "("
