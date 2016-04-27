@@ -42,8 +42,6 @@ from sets import Set
 
 import json 
 
-import tinys3
-
 import tweepy
 import sqlite3
 
@@ -186,7 +184,9 @@ def archive(request):
 				newDataSet.save()
 			elif file.name.endswith("csv"):
 				dataBaseName = "db/" + file.name[:-4] + ".db"
-				default_storage.open(dataBaseName,"w+")
+				db = default_storage.open(dataBaseName,"w+")
+				db.write("")
+				db.close()
 				conn = sqlite3.connect(settings.STATIC_URL + dataBaseName)
 				conn.text_factory = str
 				reader = csv.reader(file)
