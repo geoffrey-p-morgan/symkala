@@ -35,9 +35,11 @@
 	<!-- Pop up starts Here -->
 	<div id="popupForm">
 		<div id="navTab">
-			<div class="activeTab" id="localUpload"> Upload Data </div><div id="twitter"> Twitter Upload </div>
+			<div class="activeTab tab" id="localUpload"> Upload Data </div>
+			<div class="tab" id="twitter"> Twitter Upload </div>
+			<div class="tab" id="shape"> Shape File Upload </div>
 		</div>
-		<div id="localFormDiv">
+		<div id="localFormDiv" class="popupdiv">
 			<!--<img class="mediaIcons" src="{% static 'images/header_icons.png' %}">-->
 			<form class="popupForm" action="{% url 'archive' %}" method="POST" enctype="multipart/form-data">
 				{% csrf_token %}
@@ -54,7 +56,7 @@
 				<button type="submit">Upload</button>
 			</form>
 		</div>
-		<div id="twitterFormDiv">
+		<div id="twitterFormDiv" class="popupdiv">
 			<form id="twitterForm" class="popupForm" action="{% url 'twitter' %}" method="POST">
 				{% csrf_token %}
 				<img class="imgclose" id="close" src="{% static 'images/Close-icon.png' %}" onClick = "upload_hide()">
@@ -68,6 +70,19 @@
 						<input type="checkbox" name="filter" value="tag"> Hashtag </input>
 				</fieldset>
 				<button type="submit"> Search </button>
+			</form>
+		</div>
+		<div id="shapeFormDiv" class="popupdiv">
+			<form id="shapeform" class="popupForm" action="{% url 'archive' %}" method="POST" enctype="multipart/form-data">
+				{% csrf_token %}
+				<img id="close" src="{% static 'images/Close-icon.png' %}" onClick = "upload_hide()">
+				<h2> Upload Shapefile</h2>
+				<hr>
+				<div id="dataSelect">
+					Select data: <input type="file" name="data" multiple> 
+				</div>
+				<div class="tooltip">(Upload your zipped shapefile)</div>
+				<button type="submit">Upload</button>
 			</form>
 		</div>
 	</div>

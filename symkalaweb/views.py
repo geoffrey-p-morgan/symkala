@@ -131,13 +131,9 @@ def archive(request):
 		return render(request,"archive.html",context)
 	else:
 		files = request.FILES.getlist('data')
-		dataSetName = request.POST["name"].replace(" ","_")
-		newDataSet = DataSet(name=dataSetName)
-		newDataSet.save()
-		newDataSet.owners.add(request.user)
-		newDataSet.save()
 		for file in files:
 			fileType = file.content_type
+			print fileType
 			newFile = File(file=file,type=fileType)
 			newFile.save()
 			
@@ -163,8 +159,6 @@ def archive(request):
 					new_data.save()
 					new_data.owners.add(request.user)
 					new_data.save()
-					newDataSet.data.add(new_data)
-					newDataSet.save()
 					
 				except:
 					print "problem with data upload"
@@ -174,15 +168,16 @@ def archive(request):
 				new_data.save()
 				new_data.owners.add(request.user)
 				new_data.save()
-				newDataSet.data.add(new_data)
-				newDataSet.save()
 			elif fileType.endswith("pdf"):
 				new_data = Data(name=file.name,file=newFile)
 				new_data.save()
 				new_data.owners.add(request.user)
 				new_data.save()
-				newDataSet.data.add(new_data)
-				newDataSet.save()
+			elif file.name.endswith("zip"):
+				new_data = Data(name=file.name,file=newFile)
+				new_data.save()
+				new_data.owners.add(request.user)
+				new_data.save()
 			elif file.name.endswith("csv"):
 				dataBaseName = "db/" + file.name[:-4] + ".db"
 				tmpDb = file.name[:-4] + ".db"
@@ -222,8 +217,6 @@ def archive(request):
 				new_data.save()
 				new_data.owners.add(request.user)
 				new_data.save()
-				newDataSet.data.add(new_data)
-				newDataSet.save()
 				k.set_contents_from_filename(tmpDb)
 	data = Data.objects.filter(owners=request.user.id)
 	context['data'] = data
@@ -284,7 +277,7 @@ def visualize(request):
 	csvFileName = 'data/' + str(uuid.uuid1()) + '.csv'
 	csvFile = default_storage.open(csvFileName,'w+')
 	typeOfAnalysis = request.POST["analysis"]
-	if typeOfAnalysis == "text" or typeOfAnalysis == "pdf":
+	if typeOfAnalysis == "text" or typeOfAnalysis == "pdf" or typeOfAnalysis == "shape":
 		fieldnames = ['fileName']
 	elif typeOfAnalysis == "scatter":
 		fieldnames = ['x','y']
@@ -323,6 +316,7 @@ def visualize(request):
 					rowX = row[str(x)]
 					rowY = row[str(y)]
 					writer.writerow({"x":rowX,"y":rowY})
+			
 			if typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvCluster" or typeOfAnalysis == "csvTin":
 				lat = request.POST["lat"]
 				lon = request.POST["lon"]
@@ -349,6 +343,17 @@ def visualize(request):
 						else:
 							tags = tagList
 						writer.writerow({'fulcrum_id': id,'FacilityType': tags,'latitude':latitude,'longitude':longitude})
+			if typeOfAnalysis == "shape":
+				if str(data.file.file).endswith("zip"):
+					shapeFileName = 'data/' + str(uuid.uuid1()) + '.zip'
+					#c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+					#b = c.lookup("symkaladev6")
+					#k = b.new_key(shapeFileName)
+					tmpFile = default_storage.open(shapeFileName,'w')
+					tmpFile.write(data.file.file.read())
+					tmpFile.close()
+					#k.set_contents_from_filename("https://s3.amazonaws.com/symkaladev6/tmp/tmp.zip")
+					writer.writerow({'fileName' : "https://s3.amazonaws.com/symkaladev6/" + shapeFileName})
 			if typeOfAnalysis == "text":
 				if data.file.type.startswith("text"):
 					try:
@@ -386,6 +391,8 @@ def visualize(request):
 		return redirect("text",csvFileName)
 	elif typeOfAnalysis == "scatter":
 		return redirect("scatter",csvFileName)
+	elif typeOfAnalysis == "shape":
+		return redirect("shape",csvFileName)
 	else:
 		print "analyis not supported... yet"
 		return HttpResponse("Analysis not supported... yet")
@@ -394,6 +401,9 @@ def visualize(request):
 	
 def scatter(request,fileName):
 	return render(request,"scatter.html",{"fileName" : fileName})
+	
+def shape(request,fileName):
+	return render(request,"shape.html",{"fileName" : fileName})
 	
 ##
 # Creates proximity map analysis
@@ -474,25 +484,12 @@ def analysis(request):
 				analysis["heat"] = True
 				analysis["Triangulated Irregular Network"] = True
 				analysis["cluster"] = True
+			if str(data.file.file).endswith(".zip"):
+				analysis["shape"] = True
 			if str(data.file.file).endswith(".csv"):
-				db = data.name
-				
-				c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
-				b = c.lookup("symkaladev6")
-				k = b.new_key(db)
-				tmpDb = "tmp.db"
-				k.get_contents_to_filename(tmpDb)
-				
-				conn = sqlite3.connect(tmpDb)
-				c = conn.cursor()
-				c.execute("SELECT * FROM metadata")
-				metaData = c.fetchall()
-				metaData = [''.join(x) for x in metaData]
-				metaData = [x.lower() for x in metaData]
-				if "latitude" in metaData and "longitude" in metaData:
-					analysis["csvCluster"] = True
-					analysis["csvHeat"] = True
-					analysis["csvTin"] = True
+				analysis["csvCluster"] = True
+				analysis["csvHeat"] = True
+				analysis["csvTin"] = True
 				analysis["scatter"] = True
 			dataElements.append(data)
 	return JsonResponse(analysis.keys(),safe=False)
@@ -730,6 +727,8 @@ def img_api(request,img_id):
 			return HttpResponse(default_storage.open("images/pdf.png"))
 		elif str(img.file).endswith(".csv"):
 			return HttpResponse(default_storage.open("images/csv.png"))
+		elif str(img.file).endswith(".zip"):
+			return HttpResponse(default_storage.open("images/zip.png"))
 		elif img.type == "twitter":
 			return HttpResponse(default_storage.open("images/twitter.png"))
 	except:

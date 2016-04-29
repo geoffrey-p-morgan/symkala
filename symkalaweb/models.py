@@ -11,7 +11,7 @@ from datetime import datetime
 # Create your models here.
 
 class File(models.Model):
-	file = models.FileField(upload_to="static/files")
+	file = models.FileField(upload_to="files")
 	type = models.CharField(max_length=30,default=None)
 	
 class Twitter(File):

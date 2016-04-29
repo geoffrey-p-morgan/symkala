@@ -43,6 +43,7 @@ urlpatterns = [
 	url(r'^proximity/(?P<fileName>([\w./\-]+))/$',views.proximity,name='proximity'),
 	url(r'^heat/(?P<fileName>([\w./\-]+))/$',views.heat,name='heat'),
 	url(r'^tin/(?P<fileName>([\w./\-]+))/$',views.tin,name='tin'),
+	url(r'^shape/(?P<fileName>([\w./\-]+))/$',views.shape,name='shape'),
 	url(r'^text/(?P<fileName>([\w./\-]+))/$',views.text,name='text'),
 	url(r'^view/(?P<dataId>(\d+))/$',views.dataTools,name='viewData'),
 	url(r'^share/$',views.share,name='share'),
