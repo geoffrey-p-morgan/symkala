@@ -276,6 +276,10 @@ def visualize(request):
 		return redirect("manage")
 	csvFileName = 'data/' + str(uuid.uuid1()) + '.csv'
 	csvFile = default_storage.open(csvFileName,'w+')
+	shapeCsvFileName = 'data/' + str(uuid.uuid1()) + '.csv'
+	shapeCsv = default_storage.open(shapeCsvFileName,'w+')
+	shapeWriter = csv.DictWriter(shapeCsv,fieldnames=["fileName"])
+	shapeWriter.writeheader()
 	typeOfAnalysis = request.POST["analysis"]
 	if typeOfAnalysis == "text" or typeOfAnalysis == "pdf" or typeOfAnalysis == "shape":
 		fieldnames = ['fileName']
@@ -294,6 +298,14 @@ def visualize(request):
 			tags = data.tag_set.all()
 			for tag in tags:
 				tagList += tag.name + " "
+			#if shape file write to shapefile csv and continue, not used in rest of analysis
+			if str(data.file.file).endswith("zip"):
+				shapeFileName = 'data/' + str(uuid.uuid1()) + '.zip'
+				tmpFile = default_storage.open(shapeFileName,'w')
+				tmpFile.write(data.file.file.read())
+				tmpFile.close()
+				shapeWriter.writerow({'fileName' : "https://s3.amazonaws.com/symkaladev6/" + shapeFileName})
+				continue
 			if typeOfAnalysis == "scatter":
 				x = request.POST["x"]
 				y = request.POST["y"]
@@ -317,7 +329,7 @@ def visualize(request):
 					rowY = row[str(y)]
 					writer.writerow({"x":rowX,"y":rowY})
 			
-			if typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvCluster" or typeOfAnalysis == "csvTin":
+			elif typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvCluster" or typeOfAnalysis == "csvTin":
 				lat = request.POST["lat"]
 				lon = request.POST["lon"]
 				if str(data.file.file).endswith("csv"):
@@ -343,14 +355,7 @@ def visualize(request):
 						else:
 							tags = tagList
 						writer.writerow({'fulcrum_id': id,'FacilityType': tags,'latitude':latitude,'longitude':longitude})
-			if typeOfAnalysis == "shape":
-				if str(data.file.file).endswith("zip"):
-					shapeFileName = 'data/' + str(uuid.uuid1()) + '.zip'
-					tmpFile = default_storage.open(shapeFileName,'w')
-					tmpFile.write(data.file.file.read())
-					tmpFile.close()
-					writer.writerow({'fileName' : "https://s3.amazonaws.com/symkaladev6/" + shapeFileName})
-			if typeOfAnalysis == "text":
+			elif typeOfAnalysis == "text":
 				if data.file.type.startswith("text"):
 					try:
 						textFileName = 'data/' + str(uuid.uuid1()) + '.txt'
@@ -360,7 +365,7 @@ def visualize(request):
 						writer.writerow({'fileName' : "https://s3.amazonaws.com/symkaladev6/" + textFileName})
 					except:
 						print "problem with text file"
-			if typeOfAnalysis == "pdf":
+			elif typeOfAnalysis == "pdf":
 				if data.file.type.endswith("pdf"):
 					try:
 						textFileName = 'data/' + str(uuid.uuid1()) + '.pdf'
@@ -374,21 +379,22 @@ def visualize(request):
 				if(data.lat != None and data.lon != None):
 					writer.writerow({'fulcrum_id': data.name,'FacilityType': tagList,'latitude':data.lat,'longitude':data.lon})
 	csvFile.close()
-			
+	shapeCsv.close()
+	
+	request.session['fileName'] = csvFileName
+	request.session['shapeFileName'] = shapeCsvFileName
 	if typeOfAnalysis == "cluster" or typeOfAnalysis == "csvCluster":
-		return redirect("proximity",csvFileName)
+		return redirect("proximity")
 	elif typeOfAnalysis == "heat" or typeOfAnalysis == "csvHeat":
-		return redirect("heat",csvFileName)
+		return redirect("heat")
 	elif typeOfAnalysis == "Triangulated Irregular Network" or typeOfAnalysis == "csvTin":
-		return redirect("tin",csvFileName)
+		return redirect("tin")
 	elif typeOfAnalysis == "text":
 		return redirect("text",csvFileName)
 	elif typeOfAnalysis == "pdf":
 		return redirect("text",csvFileName)
 	elif typeOfAnalysis == "scatter":
 		return redirect("scatter",csvFileName)
-	elif typeOfAnalysis == "shape":
-		return redirect("shape",csvFileName)
 	else:
 		print "analyis not supported... yet"
 		return HttpResponse("Analysis not supported... yet")
@@ -397,20 +403,19 @@ def visualize(request):
 	
 def scatter(request,fileName):
 	return render(request,"scatter.html",{"fileName" : fileName})
-	
-def shape(request,fileName):
-	return render(request,"shape.html",{"fileName" : fileName})
-	
+		
 ##
 # Creates proximity map analysis
 # fileName is the name of csv file hosted on S3
 ##
-def proximity(request,fileName):
+def proximity(request):
+	fileName = request.session.get('fileName')
+	shapeFile = request.session.get('shapeFileName')
 	proximityFileName = 'data/' + str(uuid.uuid1()) + '.csv'
 	p = Popen(['java','-jar','calculateDistances.jar','https://s3.amazonaws.com/symkaladev6/' + fileName,",","0.005","True",'symkaladev6',proximityFileName],stdout=PIPE,stderr=STDOUT)
 	for line in p.stdout:
 		print line
-	return render(request,"proximity.html",{'fileName' : fileName,'forceFileName' : proximityFileName})
+	return render(request,"proximity.html",{'shapeFile' : shapeFile, 'forceFileName' : proximityFileName})
 	
 def text(request,fileName):
 	textFileName = 'data/' + str(uuid.uuid1()) + '.csv'
@@ -422,17 +427,23 @@ def text(request,fileName):
 ##
 # Creates heat map analysis
 # fileName is the name of csv file hosted on S3
+# shapeFile (is it exists) is a csv file on s3
 ##
-def heat(request,fileName):
-	return render(request,"heat.html",{'fileName' : fileName})
+def heat(request):
+	fileName = request.session.get('fileName')
+	shapeFile = request.session.get('shapeFileName')
+	return render(request,"heat.html",{'fileName' : fileName,'shapeFile' : shapeFile})
 
 
 ##
 # create tin analysis
 # fileName is the name of csv file hosted on S3
+# shapeFile (is it exists) is a csv file on s3
 ##	
-def tin(request,fileName):
-	return render(request,"tin.html",{'fileName' : fileName})
+def tin(request):
+	fileName = request.session.get('fileName')
+	shapeFile = request.session.get('shapeFileName')
+	return render(request,"tin.html",{'fileName' : fileName,'shapeFile' : shapeFile})
 
 def getColumnOptions(request):
 	cardIds = json.loads(request.POST["cards"])
@@ -480,8 +491,6 @@ def analysis(request):
 				analysis["heat"] = True
 				analysis["Triangulated Irregular Network"] = True
 				analysis["cluster"] = True
-			if str(data.file.file).endswith(".zip"):
-				analysis["shape"] = True
 			if str(data.file.file).endswith(".csv"):
 				analysis["csvCluster"] = True
 				analysis["csvHeat"] = True

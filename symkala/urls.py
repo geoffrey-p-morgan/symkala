@@ -40,12 +40,10 @@ urlpatterns = [
 	url(r'^manage/$',views.manage,name='manage'),
 	url(r'^visualize/$',views.visualize,name='visualize'),
 	url(r'scatter/(?P<fileName>([\w./\-]+))/$',views.scatter,name="scatter"),
-	url(r'^proximity/(?P<fileName>([\w./\-]+))/$',views.proximity,name='proximity'),
-	url(r'^heat/(?P<fileName>([\w./\-]+))/$',views.heat,name='heat'),
-	url(r'^tin/(?P<fileName>([\w./\-]+))/$',views.tin,name='tin'),
-	url(r'^shape/(?P<fileName>([\w./\-]+))/$',views.shape,name='shape'),
+	url(r'^proximity/$',views.proximity,name='proximity'),
+	url(r'^heat/$',views.heat,name='heat'),
+	url(r'^tin/$',views.tin,name='tin'),
 	url(r'^text/(?P<fileName>([\w./\-]+))/$',views.text,name='text'),
-	url(r'^view/(?P<dataId>(\d+))/$',views.dataTools,name='viewData'),
 	url(r'^share/$',views.share,name='share'),
 
 	#registration urls
