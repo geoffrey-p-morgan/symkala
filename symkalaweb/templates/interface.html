@@ -20,7 +20,11 @@
 	<div id="nav" class="col span_1_of_4">
 	{% block nav %}
 	<div>
-	<a href="{% url 'login' %}">Login</a> / <a href="{% url 'logout' %}">Logout</a></div>
+		<a href="{% url 'logout' %}">Logout</a>
+	</div>
+	<div>
+		<a href="https://docs.google.com/a/symkala.com/forms/d/1GInam62lmVfswd215a009jCiL9mcaNFDTFNiXNx5rd8/viewform?embedded=true" target="_blank"> Submit a bug </a>
+	</div>
 	<br>
 	<a href="{% url 'account' %}">Account</a>
 	

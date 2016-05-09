@@ -346,13 +346,9 @@ def visualize(request):
 			if typeOfAnalysis == "shape":
 				if str(data.file.file).endswith("zip"):
 					shapeFileName = 'data/' + str(uuid.uuid1()) + '.zip'
-					#c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
-					#b = c.lookup("symkaladev6")
-					#k = b.new_key(shapeFileName)
 					tmpFile = default_storage.open(shapeFileName,'w')
 					tmpFile.write(data.file.file.read())
 					tmpFile.close()
-					#k.set_contents_from_filename("https://s3.amazonaws.com/symkaladev6/tmp/tmp.zip")
 					writer.writerow({'fileName' : "https://s3.amazonaws.com/symkaladev6/" + shapeFileName})
 			if typeOfAnalysis == "text":
 				if data.file.type.startswith("text"):
@@ -717,22 +713,20 @@ def getTagCount(user,tag):
 	return tags.count()
 
 def img_api(request,img_id):
-	try:
-		img = File.objects.get(id=img_id)
-		if img.type.startswith("image"):
-			return HttpResponse(img.file.read())
-		elif img.type.startswith("text") and str(img.file).endswith(".txt"):
-			return HttpResponse(default_storage.open("images/txt.png"))
-		elif img.type.endswith("pdf"):
-			return HttpResponse(default_storage.open("images/pdf.png"))
-		elif str(img.file).endswith(".csv"):
-			return HttpResponse(default_storage.open("images/csv.png"))
-		elif str(img.file).endswith(".zip"):
-			return HttpResponse(default_storage.open("images/zip.png"))
-		elif img.type == "twitter":
-			return HttpResponse(default_storage.open("images/twitter.png"))
-	except:
-		return
+	img = File.objects.get(id=img_id)
+	print str(img.file).endswith(".zip")
+	if img.type.startswith("image"):
+		return HttpResponse(img.file.read())
+	elif img.type.startswith("text") and str(img.file).endswith(".txt"):
+		return HttpResponse(default_storage.open("images/txt.png"))
+	elif img.type.endswith("pdf"):
+		return HttpResponse(default_storage.open("images/pdf.png"))
+	elif str(img.file).endswith(".csv"):
+		return HttpResponse(default_storage.open("images/csv.png"))
+	elif str(img.file).endswith(".zip"):
+		return HttpResponse(default_storage.open("images/zip.png"))
+	elif img.type == "twitter":
+		return HttpResponse(default_storage.open("images/twitter.png"))
 		
 def dataset_api(request,dataset_id):
 	dataset = DataSet.objects.get(id=dataset_id)
