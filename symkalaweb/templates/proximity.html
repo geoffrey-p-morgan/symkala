@@ -27,6 +27,9 @@
 	var forceFileName = "{{forceFileName}}";
 	var shapeFile = "{{shapeFile}}"
 </script>
+<script src="{% static 'js/shp.js' %}"></script>
+<script src="{% static 'js/leaflet.shpfile.js' %}"></script>
+<script src="{% static 'js/colorbrewer.js' %}"></script>
 <script src="{% static 'js/proximity.js' %}?{% now 'U' %}"></script>
 {% endblock %}
 

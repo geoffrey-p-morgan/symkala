@@ -24,6 +24,9 @@
 	var fileName = "{{fileName}}";
 	var shapeFile = "{{shapeFile}}"
 </script>
+<script src="{% static 'js/shp.js' %}"></script>
+<script src="{% static 'js/leaflet.shpfile.js' %}"></script>
+<script src="{% static 'js/colorbrewer.js' %}"></script>
 <script src="{% static 'js/heat.js' %}?{% now 'U' %}"></script>
 {% endblock %}
 
