@@ -97,19 +97,6 @@ def archive(request):
 	context = {}
 	#data belonging to user
 	data = Data.objects.filter(owners=request.user.id)
-	print len(data)
-	if len(data) > 0:
-		minDate = Data.objects.filter(owners=request.user.id).aggregate(min_date = Min('date'))
-		maxDate = Data.objects.filter(owners=request.user.id).aggregate(max_date = Max('date'))
-		context['hasData'] = True
-		context['minDateYear'] = minDate['min_date'].year
-		context['minDateMonth'] = minDate['min_date'].month
-		context['minDateDay'] = minDate['min_date'].day
-		context['maxDateYear'] = maxDate['max_date'].year
-		context['maxDateMonth'] = maxDate['max_date'].month
-		context['maxDateDay'] = maxDate['max_date'].day
-	else:
-		context['hasData'] = False
 	context['data'] = data
 	
 	#dictionary holding all data tags
@@ -127,6 +114,18 @@ def archive(request):
 	cardForm.fields['existingCards'].queryset = Card.objects.filter(owners=request.user.id)
 	cardForm.fields['existingCards'].label = "Select Existing Cards"
 	context['form'] = cardForm
+	if len(data) > 0:
+		minDate = Data.objects.filter(owners=request.user.id).aggregate(min_date = Min('date'))
+		maxDate = Data.objects.filter(owners=request.user.id).aggregate(max_date = Max('date'))
+		context['hasData'] = True
+		context['minDateYear'] = minDate['min_date'].year
+		context['minDateMonth'] = minDate['min_date'].month
+		context['minDateDay'] = minDate['min_date'].day
+		context['maxDateYear'] = maxDate['max_date'].year
+		context['maxDateMonth'] = maxDate['max_date'].month
+		context['maxDateDay'] = maxDate['max_date'].day
+	else:
+		context['hasData'] = False
 	if request.method != 'POST':
 		return render(request,"archive.html",context)
 	else:
@@ -219,6 +218,18 @@ def archive(request):
 				new_data.save()
 				k.set_contents_from_filename(tmpDb)
 	data = Data.objects.filter(owners=request.user.id)
+	if len(data) > 0:
+		minDate = Data.objects.filter(owners=request.user.id).aggregate(min_date = Min('date'))
+		maxDate = Data.objects.filter(owners=request.user.id).aggregate(max_date = Max('date'))
+		context['hasData'] = True
+		context['minDateYear'] = minDate['min_date'].year
+		context['minDateMonth'] = minDate['min_date'].month
+		context['minDateDay'] = minDate['min_date'].day
+		context['maxDateYear'] = maxDate['max_date'].year
+		context['maxDateMonth'] = maxDate['max_date'].month
+		context['maxDateDay'] = maxDate['max_date'].day
+	else:
+		context['hasData'] = False
 	context['data'] = data
 	return render(request,"archive.html",context)
 	
