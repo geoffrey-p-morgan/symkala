@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		{% load staticfiles %}
+		
+		<title> Symkala {% block title %} {% endblock %} </title>
+		
+		<link rel='shortcut icon' href="{% static 'images/favicon.ico' %}"type='image/x-icon'>
+		<link rel="stylesheet" href="{% static 'css/newInterface.css' %}?{% now 'U' %}">
+		
+		{% block head %}
+		{% endblock %}
+	</head>
+
+	<body>
+	<div class="group">
+		<div id="nav">
+		{% block nav %}
+			<div>
+				<a class="link" href="{% url 'logout' %}">Logout</a>
+			</div>
+			<br>
+			<a class="link" href="{% url 'account' %}">Account</a>
+			
+			<br><br><br><br>
+			
+			<div><a href="{% url 'archive' %}">{% block archive %}<img class="imgNav" src="{% static 'images/archive_NOT_selected.png' %}">{% endblock %}</a></div>
+			<div><a href="{% url 'manage' %}">{% block manage %}<img class="imgNav" src="{% static 'images/Manage_NOT_select.png' %}">{% endblock %}</a></div>
+			<div><a href="{% url 'visualize' %}">{% block visualize %}<img class="imgNav" src="{% static 'images/Vizualize_NOT_Selected.png' %}">{% endblock %}</a></div>
+			
+			
+			<div>
+				<a href="https://docs.google.com/a/symkala.com/forms/d/1GInam62lmVfswd215a009jCiL9mcaNFDTFNiXNx5rd8/viewform?embedded=true" target="_blank"> Submit a bug </a>
+			</div>
+		{% endblock %}
+		</div>
+		
+		<div>
+			<div class="group">
+				<div id="toolsAndWorkSpace">
+					<div id="tools">
+					{% block tools %}
+					{% endblock %}
+					</div>
+					<div id="workspace">
+					{% block workspace %}
+					{% endblock %}
+					</div>
+				</div>
+				<div id="meta">
+				{% block meta %}
+				{% endblock %}
+				</div>
+			</div>
+			<div id="filters">
+				{% block filters %}
+				{% endblock %}
+			</div>
+		</div>
+	</div>
+	<script src="{% static 'js/jquery-2.1.4.js' %}"></script>
+	{% block scripts %}
+	{% endblock %}
+	</body>
+</html>
+		
+		

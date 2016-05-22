@@ -127,7 +127,7 @@ def archive(request):
 	else:
 		context['hasData'] = False
 	if request.method != 'POST':
-		return render(request,"archive.html",context)
+		return render(request,"newArchive.html",context)
 	else:
 		files = request.FILES.getlist('data')
 		for file in files:
@@ -161,7 +161,7 @@ def archive(request):
 					
 				except:
 					print "problem with data upload"
-					return render(request,"archive.html",context)
+					return render(request,"newArchive.html",context)
 			elif fileType.startswith("text") and file.name.endswith(".txt"):
 				new_data = Data(name=file.name,file=newFile)
 				new_data.save()
@@ -231,7 +231,7 @@ def archive(request):
 	else:
 		context['hasData'] = False
 	context['data'] = data
-	return render(request,"archive.html",context)
+	return render(request,"newArchive.html",context)
 	
 def twitter(request):
 	if request.method == "POST":
@@ -423,6 +423,7 @@ def proximity(request):
 	fileName = request.session.get('fileName')
 	shapeFile = request.session.get('shapeFileName')
 	proximityFileName = 'data/' + str(uuid.uuid1()) + '.csv'
+	print fileName
 	p = Popen(['java','-jar','calculateDistances.jar','https://s3.amazonaws.com/symkaladev6/' + fileName,",","0.005","True",'symkaladev6',proximityFileName],stdout=PIPE,stderr=STDOUT)
 	for line in p.stdout:
 		print line
