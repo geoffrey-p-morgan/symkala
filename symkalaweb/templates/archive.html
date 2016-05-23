@@ -206,6 +206,10 @@
 </div>
 {% endblock %}
 
+{% block body %}
+<script src="{% static 'js/dragula.js' %}"></script>
+{% endblock %}
+
 {% block script %}
 var hasData = ("{{hasData}}" === "True")
 var minDateYear = "{{minDateYear}}"
