@@ -11,7 +11,7 @@
 {% block tools %}
 {% for card in cards %}
 	<div draggable="true" class="allCard card draggable drag-drop" data-id="{{card.id}}">
-		{{card}}
+		<span class="cardContent"> {{card}} </span>
 	</div>
 {% endfor %}
 {% endblock %}
