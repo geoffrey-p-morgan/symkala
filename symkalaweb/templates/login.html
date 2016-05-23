@@ -1,12 +1,18 @@
-{% extends "base.html" %}
+<!-- {% extends "base.html" %}
 
 {% block head %}
-{% load staticfiles %}
+{% load staticfiles %} -->
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="{% static 'css/login.css' %}?{% now 'U' %}">
 {% endblock %}
 
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="css/login.css">
+</head> -->
 {% block content %}
 <div class="container">
 	<div class="formcontainer">
@@ -23,12 +29,12 @@
 		</div>
 
 		<div id="registerContainer">
-			<a id="register" href="{% url 'register' %}">Register</a>
-			<p> <a href="{% url 'reset' %}">Reset Password</a> </p>
+			<a id="register" href="{% url 'register' %}">Register</a>&nbsp;&nbsp;|&nbsp;
+			<a href="{% url 'reset' %}">Reset Password</a> 
 		</div>
 	</div>
 
-	<div id="sym"> Symkala </div>
+	<div id="sym"> SYMKALA </div>
 </div>
 
 <footer id="footer">
@@ -47,6 +53,6 @@
 		</tr>
 	</table>
 </footer>
-
+<!-- </html> -->
 
 {% endblock %}
