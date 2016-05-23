@@ -127,7 +127,7 @@ def archive(request):
 	else:
 		context['hasData'] = False
 	if request.method != 'POST':
-		return render(request,"newArchive.html",context)
+		return render(request,"archive.html",context)
 	else:
 		files = request.FILES.getlist('data')
 		for file in files:
@@ -161,7 +161,7 @@ def archive(request):
 					
 				except:
 					print "problem with data upload"
-					return render(request,"newArchive.html",context)
+					return render(request,"archive.html",context)
 			elif fileType.startswith("text") and file.name.endswith(".txt"):
 				new_data = Data(name=file.name,file=newFile)
 				new_data.save()

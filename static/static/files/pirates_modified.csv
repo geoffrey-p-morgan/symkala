@@ -1,0 +1,206 @@
+Date,Latitude,Longitude,Summary,Category
+2011-04-08T02:30:00,18.41667,57.45,Reference Alert #150,Pirated
+2011-04-10T17:15:00,14.266667,56.533333,Pirate Attack Group has been reported,Suspicious Activity
+2011-04-12T12:00:00,13.666667,49.933333,Preference alert #153,Attacked
+2011-04-12T12:10:00,13.666667,49.933333,A merchant vessel is currently under attack by pirates,Attacked
+2011-05-07T09:15:00,10.26,58.383,MOTHER SHIP REPORT - JELBUT 33,Suspicious Activity
+2011-05-08T08:45:00,12.1,59.47,PIRATE ATTACK,Attacked
+2011-05-09T09:15:00,9,55.95,MOTHER SHIP REPORT - JIN CHUN TSAI 68,Suspicious Activity
+2011-05-10T11:15:00,17.5833,57.9333,PIRATE ATTACK,Attacked
+2011-05-11T09:25:00,18.75,59.5,PIRATE ATTACK,Attacked
+2011-05-12T09:45:00,9.9,60.9,PIRATE ATTACK GROUP REPORT,Suspicious Activity
+2011-05-14T04:30:00,8.533333,67.883333,PIRATE ATTACK,Attacked
+2011-05-14T06:40:00,19.216667,60.316667,PIRATE ATTACK,Attacked
+2011-05-15T11:10:00,14.216667,58.316667,PIRATE ATTACK GROUP,Suspicious Activity
+2011-05-15T16:40:00,14.15,55.416667,PIRATE ATTACK,Attacked
+2011-05-16T10:35:00,24.183333,61.183333,PIRATE ATTACK,Attacked
+2011-05-16T13:10:00,7.283333,53.433333,UPDATE,Suspicious Activity
+2011-05-17T05:30:00,6.85,51.366667,PIRATE ATTACK,Attacked
+2011-05-17T07:30:00,-9,40.93333,PIRATE ATTACK,Attacked
+2011-05-17T11:55:00,-9.4,40.7333,PIRATE ATTACK,Attacked
+2011-05-20T06:30:00,13.25,43.16667,PIRATE ATTACK,Attacked
+2011-05-20T06:35:00,-13.25,43.16667,CANCELLED,Miscellaneous
+2011-05-22T03:45:00,15.73333,61.45,PIRATE ATTACK,Attacked
+2011-05-22T10:00:00,14.5,42.216667,PIRATE ATTACK,Attacked
+2011-05-26T09:10:00,6.15,50.55,Possible mothership,Suspicious Activity
+2011-05-27T08:30:00,7.15,53.333,UPDATE,Suspicious Activity
+2011-05-28T01:50:00,7.95,55.2667,UPDATE,Suspicious Activity
+2011-05-29T11:55:00,14.7333,42.1,ATTACK,Attacked
+2011-05-29T22:55:00,9.5333,58.1167,UPDATE,Pirated
+2011-05-30T00:30:00,11,61.2333,UPDATE,Suspicious Activity
+2011-05-30T14:50:00,11.6833,62.4667,UPDATE,Suspicious Activity
+2011-05-30T21:35:00,12.2833,62.7167,UPDATE,Pirated
+2011-05-31T04:05:00,13.5333,42.6833,PIRATE ATTACK,Attacked
+2011-05-31T04:05:00,13.5333,42.6833,UPDATE,Attacked
+2011-06-02T10:30:00,2.3167,50,PIRATE ATTACK GROUP,Pirated
+2011-06-03T08:15:00,10.9167,57.8,UPDATE,Suspicious Activity
+2011-06-03T19:45:00,10.7667,56.95,UPDATE,Suspicious Activity
+2011-06-05T05:15:00,10.2833,54,UPDATE,Pirated
+2011-06-06T05:10:00,9.4667,51.65,UPDATE,Suspicious Activity
+2011-06-06T12:10:00,14.1667,52.3,PIRATE ATTACK,Attacked
+2011-06-07T08:00:00,7.8167,50.6667,UPDATE,Suspicious Activity
+2011-06-07T13:40:00,13.55,50.45,PIRATE ATTACK,Pirated
+2011-06-08T08:00:00,7.8167,50.6667,UPDATE,Suspicious Activity
+2011-06-10T12:05:00,-5.9167,41.5667,UPDATE,Suspicious Activity
+2011-06-10T12:15:00,13.4833,42.6167,PIRATE ATTACK,Attacked
+2011-06-11T03:55:00,12.3167,61.5,PIRATE ATTACK,Attacked
+2011-06-15T03:05:00,9.3,51.25,PIRACY ATTACK,Attacked
+2011-06-26T09:50:00,21.75,60.5167,PIRACY ATTACK,Attacked
+2011-07-06T00:25:00,12.4833,44.7333,Priate attack,Attacked
+2011-07-11T08:00:00,14.95,41.85,Unfounded report,Miscellaneous
+2011-07-13T07:15:00,12.7333,43.3,Piracy attack,Attacked
+2011-07-17T07:40:00,13.8,51.4167,Hijacked vessel,Pirated
+2011-07-20T15:45:00,13.45,42.65,Piracy attack,Attacked
+2011-07-21T11:20:00,13.4833,42.6,Attack,Attacked
+2011-07-22T10:30:00,12.9333,48.5,Piracy attack,Attacked
+2011-07-26T21:10:00,13.4533,42.95,Piracy attack,Attacked
+2011-08-06T15:20:00,13.0333,43.167,Approach,Approached
+2011-08-09T02:50:00,13.1333,48.2333,Piracy attack,Attacked
+2011-08-11T11:10:00,15.13,41.93,Piracy attack,Attacked
+2011-08-11T11:20:00,15.15,41.92,Update Alert 209,Attacked
+2011-08-12T14:30:00,14.57,42.38,Alert upate (211/2011),Attacked
+2011-08-20T01:50:00,16.9,54.05,Pirated,Pirated
+2011-08-21T14:55:00,16.15,53.6,Attacked,Attacked
+2011-08-23T06:15:00,13.13,49.18,Attacked,Attacked
+2011-09-08T19:00:00,15.45,52.2333,Pirated,Pirated
+2011-09-10T06:25:00,14.1,42.75,Attacked,Attacked
+2011-09-11T06:00:00,14.1,42.75,Alert 217 UPDATE,Miscellaneous
+2011-09-20T10:00:00,-4.78,44.58,Merchant vessel currently under attack by 2 skiffs,Attacked
+2011-09-21T10:00:00,-3.83,44.63,Alert 218 / 2011 UPDATE,Miscellaneous
+2011-09-23T14:00:00,12.37,43.9,WARNING - Suspicious Activity noted,Suspicious Activity
+2011-09-25T13:40:00,14.23,42.83,Alert 219 / 2011,Attacked
+2011-09-28T11:40:00,14.05,42.8,Alert number 220 / 2011,Attacked
+2011-09-29T12:15:00,11.67,63.08,Alert 221 / 2011,Attacked
+2011-10-02T04:20:00,13.3,48.85,Piracy Attack,Attacked
+2011-10-02T04:25:00,3.92,56.34,Piracy Attack,Attacked
+2011-10-02T09:20:00,16.2,62.78,Pirate Attack,Attacked
+2011-10-03T05:30:00,4.98,58,Alert 225 / 2011,Attacked
+2011-10-06T16:20:00,-6.016667,42.333333,Pirate Attack,Attacked
+2011-10-10T04:50:00,12.52,61.8,Alert 227 - Attack,Attacked
+2011-10-11T09:25:00,-11.87,42.57,Pirate Attack,Attacked
+2011-10-11T14:45:00,12.65,61.95,UPDATE - Alert 217 / 2011,Miscellaneous
+2011-10-12T07:30:00,13.05,48.86,NSC 2 - WARNING: SUSPICIOUS APPROACH,Suspicious Activity
+2011-10-14T15:40:00,21.7,64.02,NSC 3: Warning - Suspicious Activity,Suspicious Activity
+2011-10-14T17:45:00,24.48,63.78,NSC4: Warning - Suspicious Activity,Suspicious Activity
+2011-10-16T10:50:00,-5.16,40.05,At 1050 UTC, a merchant vessel was reported under attack by 1 skiff in position 0501 S 04003 E
+2011-10-17T21:15:00,-6.45,40.133333,Pirate Attack,Attacked
+2011-10-18T04:50:00,13.783333,49.016667,Pirate Attack,Attacked
+2011-10-20T14:40:00,-1.2,58.32,Alert 232 / 2011,Attacked
+2011-10-30T00:55:00,-4.33,43.68,Alert 233/2011,Attacked
+2011-10-31T11:50:00,12,45.55,Alert 234/2011,Pirated
+2011-10-31T14:15:00,-2.38,49.48,NSC 5/11 - WARNING: APPROACH,Approached
+2011-10-31T20:30:00,-8.17,46.1,NSC 6/11 - WARNING: ATTACK,Attacked
+2011-10-31T21:00:00,16.93,56.82,NSC 7/11 - INDICATION OF MOTHERSHIP,Suspicious Activity
+2011-11-01T09:35:00,-1.35,52.35,NSC 8/11 - WARNING: APPROACH,Approached
+2011-11-02T06:10:00,16.93,56.82,NSC 9 / 11 - INDICATION OF MOTHERSHIP,Suspicious Activity
+2011-11-04T10:00:00,-6.2,51.2,Alert 235 / 2011,Pirated
+2011-11-07T14:30:00,15.7,55.18,NSC 10/11 - POSSIBLE MOTHER SHIP,Suspicious Activity
+2011-11-11T08:30:00,-3.93,47.23,Attacked,Attacked
+2011-11-15T04:30:00,15.85,55.11,Alert 237 Attacked, vessel safe
+2011-11-16T07:40:00,-11.733333,42.6666667,Suspicious Approach,Approached
+2011-11-18T04:50:00,12.55,43.55,WARNING WARNING WARNING,Attacked
+2011-11-19T06:00:00,12.48,43.53,Suspicious Appraoch,Approached
+2011-11-19T14:20:00,22.6,59.85,WARNING WARNING WARNIG,Approached
+2011-11-19T14:40:00,22.6,59.85,NSC 13/11 UPDATE,Approached
+2011-11-21T05:35:00,-4.6,43.3,WARNING WARNING WARNING,Attacked
+2011-11-26T06:00:00,12.62,43.43,NSC 14/11 Suspicious Approach,Approached
+2011-11-26T10:10:00,-2.87,48.62,Alert 240/11,Approached
+2011-11-27T17:00:00,-1.33,49.58,Alert 241 - Suspicious Activity,Suspicious Activity
+2011-11-29T08:20:00,15.01,56.6,Alert 242 - WARNING WARNING WARNING,Attacked
+2011-11-30T10:55:00,11.98,45.11,Suspicious Approach,Suspicious Activity
+2011-11-30T14:05:00,12.3,44.05,Attacked,Attacked
+2011-12-04T12:10:00,20.65,60,WARNING WARNING WARNING,Attacked
+2011-12-06T07:05:00,20.47,64.78,POSSIBLE MOTHER SHIP,Suspicious Activity
+2011-12-07T14:10:00,16.16,55.27,POSSIBLE MOTHER SHIP - UPDATED POSITION,Suspicious Activity
+2011-12-09T09:40:00,2.68,48.58,Alert 245 - MOTHERSHIP POSITION,Suspicious Activity
+2011-12-15T16:20:00,5.86,49.61,Suspect Vessel,Suspicious Activity
+2011-12-15T16:20:00,5.1,49.21,Suspect Vessel,Suspicious Activity
+2011-12-19T08:45:00,12.6,46.52,---WARNING WARNING WARNING---,Approached
+2011-12-21T16:35:00,11.36,63.55,NSC 18/11 - Suspicious Approach,Approached
+2011-12-25T14:25:00,24.96,60.33,NSC 19 /11 - Suspicious Activity,Suspicious Activity
+2011-12-27T04:05:00,18.3,57.6,Alert 250 - Pirated Vessel,Pirated
+2011-12-31T00:00:00,12.52,43.48,Suspicious Activity,Suspicious Activity
+2012-01-04T03:45:00,12.12,44.18,WARNING - SUSPICIOUS APPROACHES,Approached
+2012-01-04T04:20:00,13.16,49.2,Alert 001/2012,Attacked
+2012-01-04T08:20:00,12.28,44.16,Alert 002/2012,Attacked
+2012-01-05T04:45:00,22.45,60.98,ALERT 003/2012,Attacked
+2012-01-06T14:15:00,12.43,43.8,NSC 2/12 - Suspicious activity,Suspicious Activity
+2012-01-10T10:25:00,10.97,53.38,SUSPECT VESSEL - POSSIBLE MOTHERSHIP,Suspicious Activity
+2012-01-12T02:35:00,1.62,46,Alert 005 - Suspicious Activity,Suspicious Activity
+2012-01-12T09:50:00,14.85,56.05,Alert 006 - Pirate Attack,Attacked
+2012-01-16T08:15:00,15.03,58.23,Alert 007 - Pirate Attack,Attacked
+2012-01-17T06:30:00,13.53,55.73,Warning Warning Warning,Approached
+2012-01-17T07:35:00,12.5,43.58,Suspicious Activity,Suspicious Activity
+2012-01-19T14:00:00,10.85,52.9,Alert 009 - Suspect Vessel,Miscellaneous
+2012-01-20T16:00:00,24.85,57.47,Alert 010 - Suspect Vessel,Suspicious Activity
+2012-01-28T11:00:00,4.92,58.23,Suspicious Approach,Approached
+2012-02-02T04:15:00,7.88,76.3,NSC 5/12 - Suspicious Activity,Suspicious Activity
+2012-02-06T04:45:00,-5.05,66.28,Approached,Approached
+2012-02-08T07:45:00,-4.3,59.98,Approached,Approached
+2012-02-08T14:40:00,16.05,62.43,Alert 012/2012 - Vessel Attacked, Suspected Hijacked
+2012-02-10T05:10:00,20.01,60.65,Suspicious activity,Suspicious Activity
+2012-02-17T22:10:00,18.17,57.35,Vessel Hijacked,Pirated
+2012-02-18T07:15:00,-5.48,59.98,Approached,Approached
+2012-02-22T11:25:00,13.51,50.36,Attacked,Attacked
+2012-02-28T07:00:00,16.05,58.96,Approached,Approached
+2012-02-28T08:00:00,12.56,43.5,Attacked,Attacked
+2012-02-28T12:05:00,15.02,54.93,Alert 016/2012 - Pirated,Pirated
+2012-03-01T21:35:00,17.15,58.28,Suspicious Activity,Suspicious Activity
+2012-03-02T12:20:00,21.45,62.62,Attacked,Attacked
+2012-03-03T12:00:00,13.05,60.38,Suspicious Activity,Suspicious Activity
+2012-03-04T09:25:00,16.57,59.8,Pirated,Pirated
+2012-03-06T05:20:00,14.33,52.75,Attacked,Attacked
+2012-03-06T10:30:00,13.67,50.67,NSC 011/12 - Suspicious Activity,Suspicious Activity
+2012-03-09T13:15:00,14.33,52.65,NSC 012/12 - Suspicious Activity,Suspicious Activity
+2012-03-11T07:35:00,13.21,57.83,Attack,Attacked
+2012-03-17T06:25:00,13.15,48.75,Alert 021/12 - Attack,Attacked
+2012-03-17T11:20:00,5.78,53.83,Alert 022/12 - Attack,Attacked
+2012-03-19T02:55:00,5.65,53.33,Alert 023/12 - Attack,Attacked
+2012-03-23T04:00:00,16.97,62.8,Attacked,Attacked
+2012-03-25T14:00:00,14.28,56.85,Attack,Attacked
+2012-03-26T03:00:00,-5.35,49.3,Attack,Attacked
+2012-03-26T03:30:00,7,69.82,Alert 027/12 Hijacked Vessel - UPDATE (29 Mar 12),Pirated
+2012-03-27T11:35:00,-3,55,NSC Alert 013/12 - Hijacked Fishing Vessel,Pirated
+2012-03-28T07:30:00,12,51.37,Pirated,Pirated
+2012-03-28T09:15:00,8.5,53,Suspicious Activity,Suspicious Activity
+2012-04-04T17:00:00,21.63,59.98,Attacked,Attacked
+2012-04-06T05:55:00,25.48,57.53,Alert 030/12 - ATTACK (Also Known as NSC 015/12),Attacked
+2012-04-09T10:50:00,12.23,61.75,NSC 016/12 - Suspicious Approach,Approached
+2012-04-13T11:15:00,-11.3,41,Alert 032/12 - Attack,Attacked
+2012-04-14T01:45:00,14.28,52.83,NSC 017/12 - Suspicous Activity,Suspicious Activity
+2012-04-14T06:55:00,16.9,65.98,NSC 018/12 - Suspicious Approach,Approached
+2012-04-16T08:00:00,-9.8,40.52,Suspicious Activity,Suspicious Activity
+2012-04-21T22:35:00,15.33,52.2,PIRATED,Pirated
+2012-04-24T19:40:00,4.55,54.63,Suspicious Activity,Suspicious Activity
+2012-04-29T06:00:00,13.43,42.65,Suspicious Approach,Approached
+2012-05-07T03:50:00,8.13,56.3,Approached,Approached
+2012-05-09T10:00:00,10.93,60.08,Attacked,Attacked
+2012-05-10T09:30:00,15.97,61.05,Pirated,Pirated
+2012-05-10T10:00:00,14.3,58.45,Attacked,Attacked
+2012-05-18T09:30:00,19.78,60.82,Suspicious activity,Suspicious Activity
+2012-05-23T14:10:00,12.8,43.18,Approached,Approached
+2012-06-18T09:30:00,14.47,50.75,Attacked,Attacked
+2012-06-20T05:30:00,20.83,59.5,Attack,Attacked
+2012-06-20T12:00:00,20.48,59.05,Pirated,Pirated
+2012-06-27T10:15:00,14.36,54.63,Attack,Attacked
+2012-07-31T14:00:00,12.35,43.98,Suspicious Activity,Suspicious Activity
+2012-08-12T13:00:00,17,54,Pirated,Pirated
+2012-08-17T09:20:00,1.27,58.12,Attack,Miscellaneous
+2012-09-24T13:00:00,15.75,55.43,Dhow attacked,Attacked
+2012-10-09T09:00:00,13.3,57.58,Suspicious Activity,Suspicious Activity
+2012-10-10T00:10:00,0.43,50.65,Fishing vessel attacked,Attacked
+2012-10-19T12:45:00,8.31,50.46,Hijacked,Pirated
+2012-11-20T10:30:00,2.17,52.68,Suspicious Activity,Suspicious Activity
+2012-11-28T11:00:00,6.67,59.08,Suspicious Activity,Suspicious Activity
+2012-12-15T04:30:00,24.15,59.07,Suspicious Approach,Approached
+2012-12-15T15:40:00,24.58,57.57,Pirate Attack,Attacked
+2012-12-18T12:00:00,11.3,49.15,Suspicious Activity,Suspicious Activity
+2012-12-19T12:50:00,11.3,49.15,Change to Suspicious Activity,Suspicious Activity
+2012-12-20T11:15:00,11.3,49.15,UPDATE: Vessel Returned,Miscellaneous
+2012-12-27T05:35:00,26.28,56.72,Suspicious approach,Approached
+2013-01-05T11:30:00,3,51.866667,PIRATE ATTACK,Attacked
+2013-02-18T11:50:00,7.14,52.17,Suspicious activity,Suspicious Activity
+2013-02-19T10:00:00,7.14,52.17,Update on Suspicious Activity NSC 001/13 ,Suspicious Activity
+2013-03-28T08:30:00,11.9,51.3,Pirate Attack,Attacked
+2013-03-28T17:00:00,11.9,51.3,Update on Pirate Attack 002/13 ,Attacked
+2013-04-02T07:00:00,0.866667,44.016667,Pirate Attack,Attacked
