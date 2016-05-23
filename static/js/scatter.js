@@ -65,7 +65,7 @@ function generateScatter(data) {
 	var trendLine = applyModel(domain,model);
 	
 	var margin = {top:30, right: 20, bottom: 30, left: 50},
-		width = 1000 - margin.left - margin.right,
+		width = 1200 - margin.left - margin.right,
 		height = 400 - margin.top - margin.bottom;
 		
 	var xValue = function(d) { return +d.x;},

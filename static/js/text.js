@@ -38,11 +38,20 @@ function makeWordChart(data) {
 		datasets: [
 			{
 				label: "TFIDF",
-				data: tfidf
+				data: tfidf,
+				backgroundColor: "rgba(255,255,255,.7)",
+				hoverBackgroundColor: "rgba(32, 34, 52, 1)",
 			}
 		]
 	};
-	var word = new Chart(ctx).Bar(data);
+	var word = new Chart(ctx, {
+		type: 'bar',
+		data: data,
+	});
+	
+	Chart.defaults.global.responsive = true;
+	Chart.defaults.global.defaultColor = "rgba(255,255,255,1)";
+	Chart.defaults.global.defaultFontColor = "rgba(255,255,255,1)";
 	
 	addWordSection("cloud");
 	var c = document.getElementById("section_cloud");
@@ -57,9 +66,7 @@ function makeWordChart(data) {
 		gridSize: Math.round(16 * $('#wordChart').width() / 1024),
 		weightFactor: function (size) {
 			halfGrid = ($("#wordChart").width() / 2) / maxSize;
-			console.log("size : " + size);
 			var endFactor = (halfGrid * size) / 2
-			console.log("end factor : " + endFactor.toString());
 			return (halfGrid * size) / 2 ;
 		},
 		color: function(word,weight) {
