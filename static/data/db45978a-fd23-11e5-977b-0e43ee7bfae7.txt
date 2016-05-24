@@ -1,0 +1,1496 @@
+Event ID,Event Date,Event Type,Group,Country,State,City,Latitude,Longitude,Total Deaths,Total Injuries
+1056358,24-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1056866,19-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1057333,20-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,400,0
+1069695,23-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+1069696,23-Sep,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1070193,25-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+1070190,25-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1070186,22-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,0
+1071064,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,4
+1071983,5-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,16
+1071968,5-Nov,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,0
+1072001,1-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,12,
+1072011,5-Nov,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,30,0
+1072006,1-Nov,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+1071961,5-Nov,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+1071993,2-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,21,0
+1072017,5-Nov,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,0,0
+1073269,12-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gabolka Bari,Baidoa,10.17017,50.171175,0,0
+1073632,5-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,30,0
+1073799,3-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1079582,5-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+1083465,20-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1084738,28-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,1,1
+1090124,30-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1091991,17-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1094513,24-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Dinsor,2.42306,42.970322,9,2
+1097205,2-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,80
+1099890,13-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Bur Hakkaba,5.161575,46.200829,3,0
+1100109,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+1102664,26-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+1104924,3-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Adado,5.161575,46.200829,19,20
+1106072,9-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1106780,11-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,24
+1106052,8-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+1106754,10-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1107401,13-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,0
+1107973,31-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,9,0
+1108335,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+1110171,10-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,3,0
+1110659,26-Apr,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1110665,26-Apr,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1110657,26-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+1111259,28-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Unknown,5.161575,46.200829,9,0
+1111489,9-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,5,0
+1113001,8-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,55,0
+1113641,7-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,8,0
+1113911,11-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,2
+1115360,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Dinsor,2.42306,42.970322,0,0
+1115370,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Balad,1.838905,44.143755,0,0
+1116852,26-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,18,27
+1117453,31-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,0
+1118255,12-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,0,0
+1118264,5-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Jalalaqsi District,5.161575,46.200829,0,0
+1118253,12-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,0,0
+1118285,6-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+1118459,10-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+1118895,10-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Bay,Baidoa,3.120215,43.644236,1,0
+1120486,12-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,0
+1123108,23-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,5
+1125115,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guraceel,5.161575,46.200829,4,10
+1125066,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Hudur,5.161575,46.200829,13,
+1126105,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,
+1126050,27-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,
+1126118,6-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,1
+1129324,16-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+1133749,1-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1133748,1-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+1135491,27-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+1135478,28-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+1136609,12-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1137492,15-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,0
+1137762,20-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1139089,31-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,11,0
+1139901,21-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+1139899,21-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1140473,7-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,20,35
+1142176,16-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1142107,15-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baydabo,5.161575,46.200829,0,12
+1142161,15-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,,
+1142224,16-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1142242,16-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,5
+1142350,18-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Ceel Doon,5.161575,46.200829,,
+1142260,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1142399,20-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1142361,18-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Hudur,5.161575,46.200829,1,
+1142549,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baydabo,5.161575,46.200829,,
+1142519,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,
+1142701,27-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1142624,25-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,60,
+1142516,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,20,
+1142582,25-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Unknown,5.161575,46.200829,1,4
+1142598,26-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,
+1142739,9-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Buulo Xaawo,3.96611,41.926491,,
+1142722,27-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1142729,28-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,
+1143126,1-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,
+1143576,7-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1143511,27-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guri-el,5.161575,46.200829,10,-93
+1143592,8-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1143579,7-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1143665,9-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,4
+1143659,8-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1143661,9-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1143663,9-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,
+1143667,9-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1144072,17-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+1144107,20-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1144466,22-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Hobyo,5.34886,48.524052,,
+1144576,1-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,10
+1145130,10-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Balad,5.161575,46.200829,,
+1145964,16-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,1,
+1146018,20-Jan,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+1146272,26-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+1146353,4-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,1
+1147736,7-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+1148059,13-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1148530,25-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,21
+1149107,5-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Jamame,0.0739,42.75573,,
+1149128,10-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,6
+1149218,26-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,,
+1149215,26-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+1149205,25-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,
+1149647,16-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+1149757,20-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,,
+1149798,1-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Hudur,5.161575,46.200829,,
+1149799,1-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Hudur,5.161575,46.200829,,
+1149801,4-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1149846,8-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Bulo Berde,3.85128,45.57024,0,0
+1149793,28-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+1149804,7-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,56
+1150957,9-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,0
+1151020,14-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,3
+1150945,9-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,19,16
+1151102,21-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+1151110,21-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,-99
+1151013,12-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,0
+1151137,23-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,0
+1151125,25-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,-297
+1151349,8-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,17
+1151391,12-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,10
+1151446,30-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Bay,Baidoa,3.120215,43.644236,0,0
+1151428,1-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,,-0.17967,42.141064,31,120
+1151504,6-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+1151735,11-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,,-0.17967,42.141064,0,3
+1151861,24-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,0
+1151791,9-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,0
+1152021,4-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Gaalkacyo,6.77274,47.424278,1,0
+1152040,21-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,10,0
+1151747,10-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,25,41
+1151984,25-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,,,5.161575,46.200829,17,0
+1152226,18-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+1152080,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+1152128,11-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+1152368,25-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Buulo Xaawo,3.96611,41.926491,0,0
+1152212,19-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Balad,5.161575,46.200829,0,2
+1152454,12-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,,4.146465,45.498354,8,0
+1152458,13-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,103,420
+1152562,17-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Jawhan,2.909205,46.00939,4,0
+1152620,17-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,0
+1152657,20-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,1
+1152647,20-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,1
+1152576,25-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,2,0
+1152829,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,10
+1152796,22-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,45,200
+1152835,24-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,8
+2860162,2-Nov,Hijacking,Al Shabaab (The Young Islamic Movement),Somalia,Puntland,Bossaso,5.161575,46.200829,,
+2862848,20-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,0
+2861505,5-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Wabxo (Uebaho),5.161575,46.200829,123,0
+2863599,8-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,17
+2864286,25-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Adale,2.44337,45.205009,0,0
+2864312,25-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,,1.838905,44.143755,0,0
+2862436,18-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,22,0
+2863938,29-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+2864271,25-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,El Adde,1.838905,44.143755,0,0
+2866728,8-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2866874,13-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Puntland,Bossaso,5.161575,46.200829,1,0
+2875252,27-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+2879440,1-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2879412,22-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2878432,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,0,1
+2878712,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,1,0
+2880029,5-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,,5.161575,46.200829,69,37
+2879686,30-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+2880247,1-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2879133,24-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,4
+2879598,17-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2880648,17-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+2879496,3-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2879337,21-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,,
+2879457,25-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,4
+2879640,27-Nov,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,5,18
+2879727,9-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,4
+2883449,11-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2884911,28-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,,
+2884038,24-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,9
+2883741,19-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,6
+2883547,18-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,,5.161575,46.200829,3,7
+2885751,11-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,,1.838905,44.143755,5,6
+2886051,11-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceel Dheere,5.34746,46.16913,3,0
+2886078,5-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,1
+2889361,13-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+2889283,12-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+2889301,12-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,3
+2889143,9-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Afgooye (Afgoi),Afgooye,2.13889,45.124008,2,0
+2889369,13-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,1,0
+2889173,9-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Afgooye (Afgoi),Afgooye,2.13889,45.124008,2,0
+2902249,25-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,,5.161575,46.200829,17,6
+2905200,11-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,3
+2905406,25-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+2906668,11-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guraceel,5.161575,46.200829,4,3
+2906811,14-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2906979,17-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2906490,10-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2907106,20-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,1
+2906846,13-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Qoryoley,1.838905,44.143755,1,0
+2907340,4-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guraceel,5.161575,46.200829,0,0
+2907040,20-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,3
+2906862,13-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Qoryoley,1.838905,44.143755,1,0
+2907347,4-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guraceel,5.161575,46.200829,7,18
+2907543,29-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,36
+2907149,20-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,1
+2907200,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,0
+2907281,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2907514,28-Dec,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+2906752,14-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2907258,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+2907078,20-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,3
+2907212,2-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2910520,28-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2911545,1-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,1,0
+2912099,16-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,1,0
+2911632,2-Jan,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+2911971,8-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,13,0
+2912074,9-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,1,0
+2916431,26-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2917630,3-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Cadaado,5.161575,46.200829,19,26
+2917772,3-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Qasahdere,5.161575,46.200829,4,8
+2918888,13-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayo,-0.34641,42.539059,0,1
+2920426,20-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,4
+2920223,17-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Bur Hakkaba,5.161575,46.200829,0,0
+2918915,14-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,3
+2921306,8-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,5,2
+2920520,21-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,2
+2920594,22-Feb,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,14,15
+2921657,1-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+2921720,7-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,6
+2924583,19-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,0
+2925130,2-Feb,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,1
+2923955,9-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+2925369,9-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+2925223,4-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+2925194,2-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,4
+2925296,5-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,1,0
+2930275,24-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+2936680,26-Jun,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2936626,26-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,0
+2939821,1-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+2943333,19-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,,
+2943421,22-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+2942730,16-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,0,0
+2942586,14-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,3,0
+2942639,15-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+2943372,19-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,2,0
+2942523,12-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,4
+2944786,25-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2944764,25-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,1
+2948155,29-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2951830,12-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Dinsor,2.42306,42.970322,0,0
+2951689,3-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,,,5.161575,46.200829,0,1
+2951747,6-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Bardere,2.33928,42.283741,0,0
+2951768,6-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,2
+2951806,10-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,0,0
+2951701,4-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Unknown,5.161575,46.200829,0,0
+2953838,20-Jul,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2954105,17-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,,5.161575,46.200829,1,1
+2953865,8-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,2,0
+2956079,9-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Dinsor,2.42306,42.970322,1,4
+2956549,25-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,9
+2956759,3-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2956833,26-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2956430,16-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2957215,8-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2957338,8-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,1
+2956467,17-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,,
+2957515,10-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,73,229
+2957605,14-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,31
+2957542,11-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,18
+2957640,15-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,18,42
+2956788,25-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,3
+2957503,4-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+2957657,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,,6.25742,47.981276,5,10
+2957672,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,40
+2957833,17-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,3,7
+2957874,18-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2958653,30-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2958499,28-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,2
+2957922,17-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+2958591,30-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Unknown,5.161575,46.200829,0,2
+2958531,29-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+2961476,23-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,18
+2961553,22-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,,5.161575,46.200829,13,0
+2971489,27-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,18
+2971734,21-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,,,5.161575,46.200829,1,0
+2971401,27-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,4,0
+2971649,22-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,25,51
+2971381,27-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2971596,23-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,,5.161575,46.200829,6,3
+2972011,17-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2971394,27-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+2973267,16-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,3,2
+2971528,23-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+2974237,2-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,0,0
+2974656,4-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,1
+2974609,4-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,2,3
+2974354,2-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,0,5
+2974761,4-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,0,0
+2976009,6-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Bur Hakkaba,5.161575,46.200829,0,0
+2974515,2-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,0,0
+2976460,11-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,3
+2976397,8-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,0
+2976761,17-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,26,39
+2978109,22-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Buulo Xaawo,3.96611,41.926491,0,2
+2978084,22-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Buulo Xaawo,3.96611,41.926491,0,0
+2977761,15-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,20
+2976257,7-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+2976801,20-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,,,5.161575,46.200829,3,0
+2978146,18-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Buulo Xaawo,3.96611,41.926491,1,0
+2978205,19-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Buulo Xaawo,3.96611,41.926491,8,6
+2978157,2-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,1
+2978973,28-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+2980730,20-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,0,0
+2980842,11-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+2980771,17-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,5,4
+2984839,3-Dec,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,20,60
+2985723,1-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,0
+2986103,5-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+2986601,7-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+2985929,3-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,19
+2986429,7-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Rabbure,5.161575,46.200829,1,0
+2986743,8-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,10
+2988509,28-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,1
+2989971,19-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,,-0.17967,42.141064,6,0
+2990912,23-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,0,3
+2990744,20-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,8,8
+2991241,30-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,3
+2990841,21-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,1
+2992753,16-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,11
+2992766,18-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3004621,23-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3004461,20-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,15
+3004746,25-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3010722,20-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3014780,24-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,25,55
+3020078,27-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,,4.146465,45.498354,23,30
+3025686,13-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,2
+3026730,14-Jul,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+3025802,3-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3027646,7-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,21,0
+3027562,4-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Unknown,10.17017,50.171175,0,0
+3027525,28-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+3029040,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Hudur,5.161575,46.200829,1,1
+3029065,28-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,,5.161575,46.200829,0,0
+3030294,25-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,8
+3030487,30-Jun,Hijacking,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3030495,30-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3030744,21-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,1,0
+3032003,28-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,22
+3030776,21-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3033787,26-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,18,27
+3040889,7-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,14
+3046297,12-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,22
+3055226,13-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,0
+3055215,8-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,13
+3060362,21-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,,,5.161575,46.200829,,
+3068912,3-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3068845,21-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3074728,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3074593,24-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3074663,25-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3069077,9-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,4
+3095544,21-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Eldere,5.161575,46.200829,0,0
+3107689,1-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,0,0
+3107853,4-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,3,3
+3107773,2-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+3107615,1-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,28,120
+3107892,5-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,1,0
+3109661,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3109614,13-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3107807,3-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,3,12
+3109620,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,200
+3109727,16-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,3
+3110079,22-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3108002,9-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,3
+3109906,22-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,3,3
+3109805,18-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3109953,29-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,19,30
+3109602,10-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3111821,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,2
+3109771,18-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,5
+3109713,16-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3111867,25-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Buulo Xaawo,3.96611,41.926491,0,0
+3110113,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,10
+3111984,28-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3110107,24-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,0
+3112047,28-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,23
+3112125,14-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3111923,27-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3111832,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,2
+3112099,28-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3112239,29-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,3
+3109836,19-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,2,0
+3109869,19-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3117763,1-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bereda,11.86361,51.05666,0,0
+3126409,6-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3126415,6-Dec,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3126343,1-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Unknown,5.161575,46.200829,0,0
+3124892,3-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,44,40
+3126398,6-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,7,22
+3126332,1-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,1,0
+3128218,15-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,0,0
+3128098,7-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3128250,10-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,7
+3129564,29-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3129167,30-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,6
+3129983,22-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,2,0
+3129414,29-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Leego,5.161575,46.200829,0,1
+3130030,20-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,2
+3130486,18-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,3
+3132171,17-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3132469,13-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,3
+3132256,17-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,1,1
+3132374,16-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,0,10
+3132525,18-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,2
+3132592,20-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,2
+3132545,11-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Nugaal,Garowe,8.40505,48.481529,1,0
+3129631,28-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3130452,17-Dec,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3129709,27-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,2,1
+3129352,30-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Bu'ale,5.161575,46.200829,0,0
+3129881,23-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,0,4
+3130265,15-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3132482,11-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,0,1
+3132510,11-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bender Cassim,11.27748,49.181431,1,0
+3132603,8-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,0,15
+3130432,17-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3132445,14-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,5
+3132573,9-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Lug,2.790175,42.089075,0,0
+3132347,16-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,0,0
+3132832,7-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,10
+3132233,17-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,0,0
+3132367,16-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,0,0
+3134490,5-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3133217,26-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+3134828,1-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3134353,6-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,1,0
+3134762,2-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bender Cassim,11.27748,49.181431,0,2
+3133395,30-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,0,0
+3134313,6-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3152354,9-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3152370,9-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,2
+3152380,10-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,0
+3152402,10-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3152803,14-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3152283,1-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,0
+3153102,19-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3153118,20-Dec,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Nugaal,Garowe,8.40505,48.481529,1,2
+3153368,20-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Unknown,5.161575,46.200829,0,0
+3153042,14-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,1
+3156572,25-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3156546,22-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Jilib,0.49729,42.775955,0,0
+3170218,21-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,2,6
+3179646,26-Feb,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,5
+3183302,2-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,0,0
+3180961,29-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guri-el,5.161575,46.200829,6,0
+3181753,30-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,0
+3183243,4-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3183535,16-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Togdheer,Buro,5.161575,46.200829,1,2
+3185141,2-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,1,0
+3186550,3-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,5
+3184991,4-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,90,170
+3191100,3-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3190294,18-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,20,0
+3193331,2-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,0,0
+3192431,19-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,7
+3193436,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3195122,22-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,20
+3196675,19-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Ubbada Hose,Kismayo,-0.346405,42.539066,1,0
+3196592,16-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3202693,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,1
+3204045,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,9
+3202774,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3202873,27-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,5
+3202731,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,1
+3204223,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,0
+3204314,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,16
+3205708,3-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3205517,1-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,1,0
+3205582,22-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3205670,3-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,0,0
+3205619,12-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+3205539,1-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+3205819,6-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,2
+3205682,17-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3205527,21-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,0
+3208406,27-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,1,0
+3208827,11-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+3208467,27-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Bakool,Unknown,5.161575,46.200829,0,1
+3208533,28-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,1,0
+3208601,8-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Qoryoley,1.838905,44.143755,0,0
+3209138,1-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,18
+3209799,19-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Elwak,2.790175,42.089075,0,0
+3209207,2-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3208524,28-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3208938,11-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,2
+3209348,15-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,0
+3209616,18-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gabolka Gedo,Dhoobleey,5.161575,46.200829,4,6
+3209651,18-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,1,0
+3208728,9-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3210227,4-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+3209568,17-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,0
+3209748,19-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,0
+3217479,10-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Unknown,Unknown,5.161575,46.200829,0,0
+3217371,11-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,1,0
+3219091,10-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,0
+3222996,3-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,8
+3222875,13-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,5
+3222986,3-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,7
+3225019,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,0,0
+3223234,8-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Xuddur,4.117575,43.884495,0,0
+3224796,8-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,0
+3224544,4-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3225001,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Eldere,5.161575,46.200829,0,0
+3227705,8-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3225031,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,0,0
+3227497,2-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,0,2
+3228324,9-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Bulo Berde,3.85128,45.57024,0,0
+3228490,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,60,160
+3227645,6-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3229158,19-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,23
+3228600,11-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,3
+3229145,16-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3229054,19-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,22
+3229584,23-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,1,0
+3228774,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,1,0
+3228678,19-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,9
+3229122,19-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,23
+3228801,15-Mar,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,0,0
+3229101,19-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,22
+3231721,18-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,17
+3229222,19-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,10,0
+3229516,23-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,6
+3231509,17-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,0
+3234113,20-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,20,60
+3233324,19-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,9
+3233287,19-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,9
+3233266,19-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,9
+3233366,19-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,9
+3236434,26-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,4
+3236389,25-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3236805,31-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,4
+3237140,22-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,13
+3237232,22-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,10
+3236543,27-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3238244,24-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,7
+3240421,26-Jul,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Puntland,Bosaso,11.277485,49.181437,0,0
+3240406,26-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Puntland,Bosaso,11.277485,49.181437,43,32
+3240623,27-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,45
+3240467,26-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,14,31
+3244621,28-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,0
+3246690,28-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,30,0
+3246704,28-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,30,0
+3253537,1-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3254470,3-Jan,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Bu'ale,5.161575,46.200829,0,0
+3254387,2-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,3
+3253581,1-Jan,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3253897,4-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,12
+3254267,5-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,14,30
+3254452,3-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Bu'ale,5.161575,46.200829,0,0
+3253568,1-Jan,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3254832,9-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,2
+3254779,8-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,1
+3254949,10-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3254916,9-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3255754,20-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,0,0
+3254617,4-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3255539,17-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Barawe,1.11005,44.02549,1,0
+3254692,7-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3255920,22-Jan,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3255953,22-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,0
+3256163,24-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,3
+3255058,16-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Jamame,0.0739,42.75573,0,3
+3255643,20-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,3
+3255813,21-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,1
+3255980,22-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3257082,27-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3257166,28-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,2,0
+3256143,24-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,3
+3256225,26-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,0
+3256042,23-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Jamame,0.0739,42.75573,0,3
+3257110,28-Jan,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Sool,Unknown,5.161575,46.200829,1,5
+3257204,28-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3257027,27-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,0
+3267848,8-Apr,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wadajir,5.161575,46.200829,0,0
+3267845,7-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Xuddur,4.117575,43.884495,0,0
+3267846,8-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Xuddur,4.117575,43.884495,0,0
+3272737,16-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3285044,14-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Jilib,0.49729,42.775955,0,0
+3285709,23-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,27
+3285894,23-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,38,75
+3285843,24-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,32,0
+3287881,24-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,45,150
+3287925,20-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,25,30
+3288207,25-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,18
+3285737,23-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,26
+3287967,21-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3287659,24-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,32,0
+3291149,28-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,30
+3291353,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,20
+3291128,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,21
+3291853,30-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,19
+3291280,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,22
+3289900,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,19,0
+3291173,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3291466,31-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3291505,28-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,10
+3291983,29-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3292679,2-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,14
+3292759,2-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,5
+3292961,5-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3292990,4-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3292948,5-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3293414,2-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,5
+3293324,7-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3292667,2-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+3295596,9-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,3
+3295464,6-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,30
+3295641,9-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3295657,9-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3295539,9-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,43
+3300033,28-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,35
+3300161,24-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3299971,27-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3300053,28-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,35
+3302643,21-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,0,0
+3302567,16-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3302589,16-Apr,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3302674,21-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,15,0
+3302218,24-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceel Dheere,5.34746,46.16913,0,0
+3303808,11-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3306043,16-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,50
+3306074,16-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,6
+3310092,18-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,3
+3310332,18-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3317847,23-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,23
+3317826,23-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,24
+3320614,23-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,19
+3320641,23-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,3
+3320663,23-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3325415,27-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,5
+3325515,27-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,0,0
+3325465,27-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3325430,27-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,5
+3325539,27-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,17
+3330563,29-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,20
+3331444,21-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,7
+3333649,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,5
+3333620,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,9
+3333607,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,8
+3333555,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,8
+3339173,2-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3338880,2-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,3
+3339208,2-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3339532,3-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,21
+3343192,4-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,0
+3343373,4-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,1
+3343544,6-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,2
+3343229,4-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3343034,3-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bender Cassim,11.27748,49.181431,1,0
+3343152,4-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,16,50
+3343343,4-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Hobyo,5.34886,48.524052,1,0
+3343217,4-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bender Cassim,11.27748,49.181431,2,0
+3343417,4-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3343487,6-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Xuddur,4.117575,43.884495,0,1
+3344711,21-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,9
+3343572,7-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,1,3
+3344408,17-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3344317,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,3
+3344533,20-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3343986,9-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,1
+3344761,21-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3347026,28-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,1,0
+3345246,7-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,0
+3346713,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,30
+3346919,27-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,3
+3346759,24-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3344846,22-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,15
+3344848,22-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,10
+3348935,1-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3349001,1-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,0,3
+3347107,29-May,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3348915,3-Oct,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3350712,24-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3348887,3-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3353221,6-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3352983,9-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,14
+3353805,12-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,3
+3353191,7-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3353627,10-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3353785,12-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,14
+3359488,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,5
+3359169,28-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3358980,28-Sep,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3359527,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,5
+3359400,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,15
+3361842,15-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,12,0
+3362459,2-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,32,0
+3359467,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,5
+3361178,1-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3361859,15-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3361065,1-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3363061,5-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3363324,5-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3365244,10-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismayu,-0.34641,42.539059,1,0
+3365697,16-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,20,30
+3366059,17-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,10
+3365763,16-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,9,0
+3369656,19-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3369695,19-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3369729,19-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,4
+3381293,21-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,25,50
+3381900,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3381646,23-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,4
+3381818,23-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,11
+3381710,23-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,15
+3381801,23-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,11
+3381815,28-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,0,0
+3381817,1-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,1,0
+3382601,11-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,2
+3382512,27-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3381854,23-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3382652,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,0,2
+3380904,1-Jan,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3384238,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,1,0
+3381417,21-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3384193,18-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Jalalaqsi District,5.161575,46.200829,0,0
+3384425,29-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3384065,27-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3381669,23-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3384299,1-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,1
+3385958,22-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,0
+3385302,23-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3385349,5-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,0,2
+3385802,3-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,0,0
+3387005,21-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3387042,20-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3387436,27-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,17,0
+3385400,5-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,2
+3389978,26-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3390045,26-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,10,8
+3390072,25-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,5
+3387087,19-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3389746,22-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3392071,26-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Rabbure,5.161575,46.200829,,
+3391847,26-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3392479,24-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+3393865,16-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3393886,16-Apr,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3392655,27-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,2,0
+3394733,30-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,4
+3394337,26-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,1
+3394051,25-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3394008,9-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Bulo Berde,3.85128,45.57024,0,0
+3392932,26-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Rabbure,5.161575,46.200829,8,10
+3394495,7-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,0,0
+3391965,26-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3394408,13-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3396373,10-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,1
+3394701,30-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,18,5
+3394206,13-Apr,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3394169,13-Apr,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3394757,30-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,22
+3395900,13-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,3
+3395830,13-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,3
+3397499,2-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,20,62
+3397765,14-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,0,0
+3398265,31-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,15
+3397923,20-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,2
+3396271,21-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,2,0
+3398431,31-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,15
+3399666,26-Apr,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,0,0
+3399699,2-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,6
+3399367,1-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,4
+3399441,7-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3399472,22-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3400215,27-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Jilib,0.49729,42.775955,0,0
+3400007,26-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3399995,25-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3403477,4-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,8
+3403418,4-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3403450,4-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3407268,2-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,1
+3407334,6-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,15
+3407492,6-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,7
+3410450,8-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,4
+3410413,8-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3410431,8-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3410561,9-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,13
+3410489,8-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3411867,4-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,0,0
+3414318,12-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3414261,11-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,25
+3410525,9-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,12
+3414526,10-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+3414290,11-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,7
+3419234,15-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,9
+3419306,15-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,3
+3419221,15-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,3
+3419321,15-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,1
+3419355,15-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,1,0
+3421669,14-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baydabo,5.161575,46.200829,0,0
+3422208,17-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,20,0
+3423513,17-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,25
+3423576,17-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,25
+3427689,19-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,11,0
+3431126,20-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,10
+3432671,22-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3432725,23-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Jalalaqsi District,5.161575,46.200829,0,2
+3431208,20-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3432838,24-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,23
+3431596,21-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3431572,21-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3432860,24-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3439171,27-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,4
+3439212,27-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,4
+3439136,27-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3439228,27-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,4
+3439405,28-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3439378,28-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3439082,27-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,20
+3442874,28-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3442214,30-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,15
+3443604,29-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bosaso,11.27748,49.181431,1,0
+3442409,29-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,20
+3442842,28-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3444674,30-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3444658,30-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3444722,30-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3444742,30-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3444774,30-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3443417,29-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,
+3443362,29-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,
+3445355,1-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Bur Hakkaba,5.161575,46.200829,3,5
+3448424,19-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+3449931,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Bur Hakkaba,5.161575,46.200829,8,13
+3450157,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,4
+3450142,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,4
+3450183,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,5
+3450030,2-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,4
+3450602,4-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,10
+3450557,4-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,10
+3452988,5-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,8
+3450490,5-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,13,0
+3453541,4-Dec,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,10,0
+3452954,5-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,7
+3453618,28-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3453628,28-Nov,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3455382,8-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bosaso,11.27748,49.181431,0,1
+3458369,9-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3463263,11-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,9
+3462690,10-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3462446,9-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,2
+3463406,14-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Dinsor,2.42306,42.970322,0,1
+3462781,10-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3463248,11-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,8
+3462825,10-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3462965,10-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3462624,10-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3462717,10-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3463346,13-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3469017,12-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Bur Hakkaba,5.161575,46.200829,0,0
+3468445,12-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3466843,13-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceelbuur,5.161575,46.200829,1,0
+3469303,14-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3470670,16-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3470630,15-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3470646,15-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3470685,16-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3472893,18-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3472949,18-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+3474625,20-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,10
+3474803,21-Dec,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,0,0
+3477072,22-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,7
+3477111,21-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3476780,21-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Buulo Burte,3.85128,45.57024,0,1
+3476998,22-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3481626,23-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,13
+3484432,27-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,10
+3484299,26-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,15
+3484999,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3484200,26-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,0
+3484972,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3485025,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3484988,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3485244,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3485305,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3485167,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,10
+3485184,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,11
+3485208,28-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,11
+3488021,29-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,10
+3490108,31-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+3490403,31-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,19,0
+3490456,1-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,7
+3490354,31-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3487942,29-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3490149,31-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3487956,29-Dec,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3492689,4-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceelbuur,5.161575,46.200829,0,0
+3492812,5-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+3492767,4-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,1
+3494093,27-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Hudur,5.161575,46.200829,0,0
+3494114,9-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3495429,6-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,1,0
+3495525,26-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3495460,26-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3495397,15-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baydabo,5.161575,46.200829,0,0
+3495322,5-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,3
+3495752,27-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3496252,18-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,5,8
+3497045,12-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,,
+3497145,2-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3497174,15-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,0,0
+3497073,30-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,0
+3497126,12-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3497100,3-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3497195,26-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,0,0
+3498340,2-Sep,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3498342,2-Sep,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3500913,8-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3503444,30-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3503628,17-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,3
+3503921,11-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,33
+3503826,20-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,0,3
+3504306,4-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceelbuur,5.161575,46.200829,0,3
+3503512,30-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3503417,4-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceelbuur,5.161575,46.200829,0,0
+3504153,12-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,4
+3503563,30-Sep,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3503677,4-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,3
+3504246,24-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kudha,-0.17967,42.141064,0,0
+3503923,11-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3505739,7-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,5
+3511575,30-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,3
+3511686,27-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,6
+3511596,15-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3511623,11-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3511750,18-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3511654,17-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3511639,29-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,0
+3511871,16-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3511610,1-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3511826,16-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3510579,14-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,4
+3512377,10-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,1,0
+3516736,13-Jan,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,1,1
+3517319,16-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3516290,14-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,10
+3516262,14-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3517452,16-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3518277,14-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,1,0
+3517947,16-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,0,2
+3515934,10-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3517469,26-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,,
+3517819,27-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Giohar,2.78451,45.504841,0,2
+3517874,9-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,1,0
+3518071,14-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Salagle,5.161575,46.200829,1,0
+3517619,26-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,1
+3521976,18-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3516533,17-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,12
+3522827,18-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,20
+3521922,18-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3522905,15-Jan,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3522002,18-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,2
+3527753,21-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,7
+3528371,20-Aug,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3528044,21-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,7
+3527795,20-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3528457,20-Aug,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3528046,12-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,2,0
+3528698,26-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,0,0
+3530140,17-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Unknown,2.909205,46.00939,0,0
+3530318,31-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Jalalaqsi District,5.161575,46.200829,0,31
+3532267,25-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,1
+3532976,26-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,9
+3527972,22-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Dinsor,2.42306,42.970322,0,0
+3532207,26-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,8
+3532236,26-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,8
+3533307,27-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,5,0
+3534390,26-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,0
+3534471,13-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3534293,14-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3534048,21-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3534246,14-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3534654,24-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,0,0
+3534176,28-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3536691,27-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Lafoole,1.838905,44.143755,0,9
+3541768,29-Jan,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Woqooyi Galbeed,Hargeysa,9.56053,44.060169,1,2
+3542021,29-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3541886,29-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3542443,30-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3541830,29-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3541930,29-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,6
+3544508,1-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,14
+3542057,29-Jan,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3544652,31-Jan,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,0,0
+3545181,2-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,21
+3545387,2-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3545247,2-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3545741,5-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Merka,1.71491,44.7603,1,0
+3548159,14-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,1
+3548075,11-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,1,1
+3548216,16-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,1
+3548121,7-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,3
+3548187,29-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,1
+3548033,10-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Jamame,0.0739,42.75573,1,3
+3552023,3-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guraceel,5.161575,46.200829,13,0
+3550691,3-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,19
+3553724,9-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,4
+3553706,9-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,14,0
+3553781,9-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3553756,9-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,15
+3553605,6-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceelbuur,5.161575,46.200829,0,1
+3555236,11-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3564962,14-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,30
+3565172,15-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,25
+3564995,14-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3555511,9-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,0
+3565185,15-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3570869,21-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3570506,19-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,46,40
+3568992,20-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3570541,19-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3570892,21-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3569008,20-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,25
+3570560,19-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3570697,21-Feb,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,19,35
+3572664,22-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3572594,20-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Wanlaweyyn,1.838905,44.143755,0,1
+3569065,20-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3570243,19-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3572943,23-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,36,62
+3572709,22-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,28,14
+3577921,25-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3575861,24-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,31,43
+3579394,28-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3577977,25-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3580971,27-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3579118,26-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,50,34
+3579152,26-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3579174,26-Feb,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3584019,4-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,10
+3584366,5-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,28,34
+3586463,5-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3584410,5-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3581642,2-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceel Dheere,5.34746,46.16913,0,47
+3584638,5-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,5,0
+3581023,1-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,21
+3584076,4-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3590248,8-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Elwak,2.790175,42.089075,0,0
+3588606,8-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+3588639,8-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3591076,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3591307,11-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,35,28
+3591051,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,51,90
+3588481,9-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3591095,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3591135,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3591322,11-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3591289,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3591534,11-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3592030,13-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,8,0
+3591120,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3591548,11-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3592165,14-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3591520,11-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3593234,12-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,13
+3593266,12-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3588440,9-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,4
+3593453,12-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,5,0
+3593806,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3592148,14-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3592307,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,20,12
+3592412,13-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,44,80
+3592329,10-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,0,0
+3593660,13-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3595009,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,24,28
+3592179,14-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3593733,14-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,62,33
+3593783,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,30
+3594299,14-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3595032,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3592228,11-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,28,50
+3595021,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3593582,14-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3595096,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3598838,16-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,25,37
+3598707,16-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,10,0
+3595110,15-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3600972,17-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,16
+3602317,19-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3601066,17-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3600854,16-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3602635,20-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3601269,18-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Bu'ale,5.161575,46.200829,2,0
+3602292,19-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,40
+3593648,13-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,5
+3601518,18-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,7
+3602771,20-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3601318,18-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,9,30
+3603004,21-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,15
+3602617,20-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,24
+3601625,18-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3605190,21-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,2,0
+3602819,21-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,2,0
+3612904,25-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,14
+3612995,25-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3612703,23-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3613103,25-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,9
+3612797,23-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,39,70
+3613269,24-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,11,20
+3613421,26-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3613435,26-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3613394,26-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,67
+3612634,23-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,0
+3614150,28-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,122,30
+3614250,28-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3614340,28-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3616324,20-Mar,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Bardere,2.33928,42.283741,0,0
+3616574,20-Feb,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,0
+3614407,28-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,6,10
+3622821,29-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,1
+3622943,29-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,1,0
+3632376,31-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,1,2
+3632457,31-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,4
+3634028,3-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,10
+3632429,31-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3632958,31-Mar,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3634048,3-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3633072,2-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3633476,3-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Dhobley,-0.17967,42.141064,0,15
+3634126,4-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Dhobley,-0.17967,42.141064,24,26
+3633060,2-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,17,0
+3632823,29-Mar,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,2,0
+3643101,6-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,12
+3644554,6-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,8,12
+3644448,6-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,3
+3652635,8-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,23,26
+3653207,9-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3653221,9-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3653158,9-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,10
+3653021,9-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,28,0
+3662281,12-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,3
+3662758,12-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,45
+3662843,12-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3662616,12-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,21
+3652515,8-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,0,0
+3663997,15-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,6,0
+3662869,12-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3664098,15-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3664267,3-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,4,23
+3662934,12-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,0
+3665375,14-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,1,0
+3664192,7-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3664145,13-Apr,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,0
+3681903,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,0,0
+3681647,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Elwak,2.790175,42.089075,11,20
+3683386,26-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,10,13
+3683904,26-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,6,0
+3681426,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,54,130
+3681685,23-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,7,0
+3684342,26-Apr,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3692096,22-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,0,0
+3692062,25-Apr,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,0,0
+3693953,28-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,0,0
+3692957,26-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Elwak,2.790175,42.089075,10,0
+3694117,28-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,43,0
+3694859,30-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Unknown,5.161575,46.200829,6,0
+3694890,29-Apr,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,24,0
+3696320,2-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,10,20
+3700322,5-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,13
+3699942,3-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,8,0
+3700084,4-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,2,0
+3704932,9-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,7
+3702321,8-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3709922,8-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3710750,11-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3710695,11-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,11,30
+3712259,11-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Dhobley,-0.17967,42.141064,10,0
+3710944,11-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Galgala,10.17017,50.171175,5,4
+3712443,12-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,12,4
+3712967,12-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,0,0
+3712304,11-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Galgala,10.17017,50.171175,14,20
+3712471,12-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3712755,12-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,7,12
+3719763,13-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,5,10
+3720016,13-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guri-el,5.161575,46.200829,0,0
+3719990,13-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guri-el,5.161575,46.200829,7,14
+3719955,12-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Guri-el,5.161575,46.200829,6,0
+3720692,9-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Bakool,Hudur,4.117575,43.884495,0,1
+3721529,13-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,3
+3721686,13-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,2,0
+3728803,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,48,0
+3728841,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,3
+3728867,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,0,0
+3728883,16-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3728656,15-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bosaso,11.27748,49.181431,3,0
+3731258,18-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,15,80
+3729590,16-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3731158,17-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,1,0
+3734682,21-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,5
+3734805,22-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3734895,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3736765,18-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3737108,25-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,4
+3736638,18-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3736781,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,1,2
+3733382,20-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Burhakaba,1.838905,44.143755,0,0
+3734863,23-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Kala Bayr,5.161575,46.200829,5,10
+3736602,18-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3736899,24-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,0,2
+3736914,25-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,9
+3737032,24-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3736956,24-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3737048,24-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3737854,25-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,0
+3737841,28-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,1,2
+3737922,26-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,1,0
+3738259,29-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3738562,26-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3738346,28-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Hiran,5.161575,46.200829,3,0
+3738581,30-May,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,4
+3738543,26-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,2
+3738531,30-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,1
+3739891,2-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3739937,3-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,0
+3739781,30-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,11,0
+3743624,2-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3739689,31-May,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Raas Kambooni,-0.17967,42.141064,4,12
+3743890,5-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,1,2
+3743932,5-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Dinsor,2.42306,42.970322,0,0
+3745499,4-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3745278,4-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,8,20
+3746061,6-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,3
+3746125,4-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3745369,5-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,6
+3747077,8-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Balad,1.838905,44.143755,0,0
+3746679,25-May,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Balad,1.838905,44.143755,0,0
+3746977,10-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3746653,6-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3746752,8-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3746811,9-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,0
+3746644,6-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+3746617,7-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,1
+3751007,8-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,3
+3748540,12-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,3
+3749764,8-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3746968,11-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Hudur,5.161575,46.200829,0,0
+3750068,8-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3749111,14-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Ceelbuur,5.161575,46.200829,0,0
+3754557,16-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,1,0
+3754243,15-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,15,45
+3754270,15-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,0,0
+3755066,16-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,3,0
+3752815,14-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,9,14
+3760670,18-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3760878,18-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,4,0
+3760551,18-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3760441,17-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,25,50
+3760844,18-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,0,0
+3761033,20-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,0,0
+3761125,21-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,10
+3766035,25-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Puntland,Bosaso,11.277485,49.181437,2,0
+3766022,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,15,12
+3765834,25-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,,-0.17967,42.141064,0,0
+3766119,25-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,0,0
+3766386,27-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,,-0.17967,42.141064,0,0
+3766329,27-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Awdegle,2.909205,46.00939,0,0
+3766497,29-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3766451,29-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,2,4
+3766631,28-Jun,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3765937,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,0,0
+3766688,28-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Baardheere,2.33928,42.283741,0,0
+3767054,28-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,5,8
+3768030,1-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3768076,1-Jun,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3768142,18-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,70,0
+3768580,22-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,1,0
+3770756,2-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,16,27
+3771052,4-Jul,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3769649,26-Jun,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3787413,5-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3787416,5-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3787150,1-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,4
+3788557,10-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,3,8
+3788404,9-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,7,0
+3789605,11-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3794838,13-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Bay,Baidoa,3.120215,43.644236,0,0
+3789615,12-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,4
+3796803,14-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Galgala,10.17017,50.171175,0,0
+3795298,15-Jul,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3795291,15-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3796577,17-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,0
+3794899,13-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Eldere,5.161575,46.200829,0,0
+3795478,16-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,1
+3795446,16-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,1,0
+3795343,14-Jul,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3789653,12-Jul,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+3795221,15-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,1,8
+3795316,14-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,3,0
+3795594,16-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3796566,,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,,-0.17967,42.141064,,
+3797182,23-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3796709,13-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3796876,5-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3798991,25-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,,
+3798403,24-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,2,0
+3796782,14-Jul,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Galgala,10.17017,50.171175,2,3
+3799020,25-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Bur Hakkaba,5.161575,46.200829,1,0
+3799865,24-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3798437,22-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,1,4
+3798384,23-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+3799076,26-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3798250,23-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3799387,19-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,0
+3799839,24-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3801337,21-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3801735,21-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,5
+3801571,21-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Balcad,2.35,45.383331,0,0
+3802547,27-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,10,5
+3801349,21-Jul,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3801895,21-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,0,0
+3805299,29-Jul,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3805273,29-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,4
+3801624,17-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,4,0
+3806606,1-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Elwak,2.790175,42.089075,10,0
+3805526,31-Jul,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3805711,1-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3805824,1-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,3
+3807700,4-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3811544,6-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3811617,7-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,2
+3811695,7-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3811358,6-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3811669,7-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3811630,7-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3819405,7-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,0,0
+3819577,8-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3825566,9-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3825592,9-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3828457,12-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3828414,11-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,2,0
+3828497,12-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Unknown,1.838905,44.143755,0,0
+3830555,15-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,2,0
+3819560,8-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3828427,11-Aug,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Jawhar (Giohar),1.838905,44.143755,0,0
+3830409,14-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,7,10
+3830613,15-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3830472,15-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,0,0
+3830600,15-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3843169,16-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,10
+3842775,18-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+3843185,16-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3842878,19-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,3
+3845653,19-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3843219,16-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3843285,17-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,5
+3845763,20-Aug,Hijacking,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3846765,24-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3845858,21-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,6
+3846712,21-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Unknown,-0.17967,42.141064,0,0
+3846812,23-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Barawe,1.11005,44.02549,0,0
+3845615,20-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Dexe,Bu'ale,5.161575,46.200829,0,0
+3845633,19-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3846108,22-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3846080,22-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,10
+3847173,24-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,5,4
+3849128,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,1,0
+3846124,22-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3842728,17-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3845672,19-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3847195,24-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3845832,21-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,7,10
+3847213,26-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Hoose,Afgoye,2.13889,45.124008,0,0
+3846170,23-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,0
+3849281,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849253,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849346,27-Aug,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,0,0
+3849580,27-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849856,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,10,15
+3848674,26-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3849107,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Garbaharey,2.790175,42.089075,1,0
+3846619,21-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,0
+3846703,21-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849236,26-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,7
+3847087,24-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849877,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849960,27-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849525,28-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3849631,28-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,1
+3851921,29-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3849512,28-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wajid,5.161575,46.200829,0,1
+3849893,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849055,25-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3849924,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849939,27-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3849908,27-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3852010,1-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Haradhere,3.84877,47.1812,1,0
+3852036,1-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,14,25
+3854293,3-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,13,0
+3854788,5-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3855154,23-Aug,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,10
+3854685,3-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,30,100
+3857630,3-Sep,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,0,0
+3855312,1-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,15,40
+3859333,5-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3855379,2-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Galkayo,6.77274,47.424278,28,0
+3857607,3-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,4,2
+3859300,5-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,5
+3859411,5-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3861498,1-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3859384,5-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3861446,1-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,0
+3861153,28-Aug,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bakol,Wajid,5.161575,46.200829,0,0
+3863984,7-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,2
+3861479,1-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3862299,6-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,3
+3864787,10-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,0,0
+3865033,12-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Mudug,Unknown,5.161575,46.200829,2,0
+3864755,10-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,2,0
+3863996,8-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,2
+3866852,13-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Dhobley,-0.17967,42.141064,0,0
+3866789,15-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Afmadow,0.52063,42.076328,0,0
+3868608,16-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,3,4
+3869479,17-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,0
+3869777,20-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,0,0
+3868632,16-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,0
+3878480,21-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3879024,24-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3880581,29-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3880279,29-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,1
+3882552,2-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,3
+3887841,4-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,71,42
+3888928,5-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Beled Haawo,2.790175,42.089075,1,1
+3888893,4-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,0,0
+3890191,9-Oct,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3890172,9-Oct,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3887294,2-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gobolka Shabeellaha Dhexe,Jowhar,2.78451,45.504841,0,1
+3889883,7-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bosaso,11.27748,49.181431,1,1
+3902757,13-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Dhobley,-0.17967,42.141064,0,0
+3902679,12-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,3
+3904607,15-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3902930,16-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Unknown,5.161575,46.200829,0,0
+3904791,18-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Afmadow,0.52063,42.076328,0,0
+3907130,17-Oct,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3907105,17-Oct,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3907120,17-Oct,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3907150,18-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,6,28
+3902786,14-Oct,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,1,0
+3907113,17-Oct,Arson,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3911021,21-Oct,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Afmadow,0.52063,42.076328,2,0
+3911262,18-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Afmadow,0.52063,42.076328,0,0
+3914289,26-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3914332,26-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3918279,30-Oct,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Shabeellaha Dhexe,Mahaday,2.909205,46.00939,5,0
+3920006,1-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Beled Weyne,5.161575,46.200829,0,0
+3928041,3-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3928084,1-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3929045,6-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Bari,Bosaso,11.27748,49.181431,3,2
+3928160,3-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,4,0
+3929914,31-Aug,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Sanaag,Dhahar,5.161575,46.200829,0,0
+3927959,3-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Bay,Baidoa,3.12022,43.64423,0,0
+3933231,2-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Bardere,2.33928,42.283741,6,0
+3933050,4-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Unknown,2.790175,42.089075,0,0
+3933509,4-Nov,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Hiiraan,Unknown,5.161575,46.200829,5,0
+3933132,4-Nov,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Elwak,2.790175,42.089075,0,5
+3937188,7-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Luuq,3.79814,42.550751,2,4
+3939100,11-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Gedo,Elwak,2.790175,42.089075,26,50
+3937273,4-Sep,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Dhobley,-0.17967,42.141064,0,0
+3937240,8-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,30,0
+3940471,11-Sep,Robbery,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
+3938132,5-Nov,Hostage Taking/Kidnapping,Al Shabaab (The Young Islamic Movement),Somalia,Jubbada Hoose,Kismaayo,-0.34641,42.539059,0,0
+3939471,13-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Galgudud,Dhusamareb,5.161575,46.200829,3,6
+3953303,15-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,23,60
+3953432,15-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,24,39
+3956405,17-Sep,Bombing,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,2,1
+3956353,16-Sep,Armed Assault,Al Shabaab (The Young Islamic Movement),Somalia,Banaadir,Mogadishu,2.04117,45.344139,0,0
