@@ -127,12 +127,12 @@ def archive(request):
 	else:
 		context['hasData'] = False
 	if request.method != 'POST':
-		return render(request,"archive.html",context)
+		return render(request,"newArchive.html",context)
 	else:
 		files = request.FILES.getlist('data')
+		tagNames = request.POST["tags"]
 		for file in files:
 			fileType = file.content_type
-			print fileType
 			newFile = File(file=file,type=fileType)
 			newFile.save()
 			
@@ -161,7 +161,7 @@ def archive(request):
 					
 				except:
 					print "problem with data upload"
-					return render(request,"archive.html",context)
+					return render(request,"newArchive.html",context)
 			elif fileType.startswith("text") and file.name.endswith(".txt"):
 				new_data = Data(name=file.name,file=newFile)
 				new_data.save()
@@ -217,7 +217,28 @@ def archive(request):
 				new_data.owners.add(request.user)
 				new_data.save()
 				k.set_contents_from_filename(tmpDb)
+			for tagName in tagNames.split():
+				try:
+					existingTag = Tag.objects.get(name=tagName,owners = request.user)
+				except:
+					print "oh no"
+					existingTag = 0
+				if existingTag:
+					print "tag %s already exists!" % (tagName)
+					new_tag = Tag.objects.get(name=tagName,owners = request.user)
+					tags.append({'name': tagName,'count':getTagCount(request.user,existingTag),'value':existingTag.id})
+				else:
+					new_tag = Tag(name=tagName)
+					new_tag.save()
+					new_tag.owners.add(request.user)
+					new_tag.save()
+				new_data.tag_set.add(new_tag)
+				new_data.save()
 	data = Data.objects.filter(owners=request.user.id)
+	tags = Tag.objects.filter(owners=request.user.id)
+	for tag in tags:
+		allTags[tag.name] = getTagCount(request.user,tag)
+	context['tags'] = allTags
 	if len(data) > 0:
 		minDate = Data.objects.filter(owners=request.user.id).aggregate(min_date = Min('date'))
 		maxDate = Data.objects.filter(owners=request.user.id).aggregate(max_date = Max('date'))
@@ -231,7 +252,7 @@ def archive(request):
 	else:
 		context['hasData'] = False
 	context['data'] = data
-	return render(request,"archive.html",context)
+	return render(request,"newArchive.html",context)
 	
 def twitter(request):
 	if request.method == "POST":
@@ -711,15 +732,14 @@ def removeTag(request):
 	return JsonResponse({'name':tag.name,'count':getTagCount(request.user,tag),'value':tag.id});
 
 #deletes a tag entirely	
-def deleteTag(request):
+def deleteTag(request,tagName):
 	try:
-		existingTag = request.POST.get("existingTags")
-		if existingTag:
-			tag = Tag.objects.get(id=existingTag,owners=request.user)
-			tag.delete()
+		tag = Tag.objects.get(id=existingTag,owners=request.user)
+		tag.delete()
+		return HttpResponse(True)
 	except:
 		print "Tag with name %s does not exist!" % (tagName)
-	return redirect("archive")
+		return HttpResponse(False)
 	
 def deleteData(request,dataId):
 	try:
@@ -784,7 +804,7 @@ def register(request):
 							key_expires=key_expires).save()
 							
 			email_subject = 'Confirm Symkala Account'
-			email_body = "Hello %s.  Welcome to Symkala!  Click this link within 48 hours to confirm your account : http://symkala-dev5.elasticbeanstalk.com/confirm/%s" % (username,activation_key)
+			email_body = "Hello %s.  Welcome to Symkala!  Click this link within 48 hours to confirm your account : http://symkala-dev6.us-east-1.elasticbeanstalk.com/confirm/%s" % (username,activation_key)
 			try:
 				send_mail(email_subject,email_body,"do_not_reply@symkala.com",[email],fail_silently=False)
 			except:

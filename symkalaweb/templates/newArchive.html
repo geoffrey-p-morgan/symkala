@@ -28,7 +28,7 @@
 </div>
 
 <div id="sizes">
-	<div> Size Slider </div>
+	<input type="range" name="size" id="size" value="0" min="0" max="100" step="10">
 </div>
 
 <form>
@@ -150,43 +150,61 @@
 
 {% block meta %}
 <div id="metaData">
-	<h5> Metadata </h5>
+	<h3 class="header"> Metadata </h3>
 
-	<label for="fileName"> File Name </label>
-	<input name="fileName" disabled>
-
-	<label for="date"> Date Taken </label>
-	<input name="date" disabled>
-
-	<label for="time"> Time </label>
-	<input name="time" disabled>
-
-	<label for="device"> Device </label>
-	<input name="device" disabled>
-
-	<label for="dimensions"> Dimensions </label>
-	<input name="dimensions" disabled>
-
-	<label for="lat"> Latitude </label>
-	<input name="lat" disabled>
+	<div>
+		<label for="fileName"> File Name </label>
+		<input name="fileName" disabled>
+	</div>
 	
-	<label for="lon"> Longitude </label>
-	<input name="lon" disabled>
+	<div>
+		<label for="date"> Date Taken </label>
+		<input name="date" disabled>
+	</div>
+	
+	<div>
+		<label for="time"> Time </label>
+		<input name="time" disabled>
+	</div>
+	
+	<div>
+		<label for="device"> Device </label>
+		<input name="device" disabled>
+	</div>
+	
+	<div>
+		<label for="dimensions"> Dimensions </label>
+		<input name="dimensions" disabled>
+	</div>
+	
+	<div>
+		<label for="lat"> Latitude </label>
+		<input name="lat" disabled>
+	</div>
+	
+	<div>
+		<label for="lon"> Longitude </label>
+		<input name="lon" disabled>
+	</div>
+	
 </div>
 
+
 <div id="tags">
-	<h5> Tags </h5>
-	<div class="container">
+	<h3 class="header"> Tags </h3>
+	<div id="tagContainer" class="container">
 		{% for tag,count in tags.items %}
-		<div class="tagContainer">
-			<div data-filter=".{{tag}}" data-count="{{count}}" class="filter tag"> <a> X </a> {{tag}} </div>
+		<div data-filter=".{{tag}}" data-count="{{count}}" class="filter tagContainer">
+			<div> <a href="{% url 'deleteTag' tag}"></a> {{tag}} ({{count}}) </div>
 		</div>
 		{% endfor %}
 		<form action="{% url 'tag' %}" method="POST">
-			{% csrf_token %}
-			<input type="text" name="tag" placeholder="Tag Name">
-			<input type="hidden" id="data" name="data" value="">
-			<button type="submit">Add</button>
+			<div id="tagForm">
+				{% csrf_token %}
+				<input type="text" name="tag" placeholder="Tag Name">
+				<input type="hidden" id="data" name="data" value="">
+				<button type="submit">Add</button>
+			</div>
 		</form>
 	</div>
 </div>
@@ -206,8 +224,8 @@
 
 {% block scripts %}
 <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
-<script src="{% static 'js/mixitup.js' %}"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
 <script src="{% static 'js/jQAllRangeSliders-min.js' %}"></script>
 <script src="{% static 'js/dragula.js' %}"></script>
 
