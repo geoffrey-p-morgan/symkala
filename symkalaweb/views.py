@@ -47,6 +47,7 @@ import tweepy
 import sqlite3
 
 from mediameter.cliff import Cliff
+from clarifai.client import ClarifaiApi
 
 consumer_key = 	"J9PJwNdonRO6WJ7s1hzjq8i4D"
 consumer_secret = "4JCEJnzCihfCUOQCL3vKJaNjl9srH4dndPl3mFC608JIIPjNtJ"
@@ -59,6 +60,11 @@ access_token_secret = "wlcQlWWsQZ6JykRKyPPBE9cUCZHaT7WYnqlSZrhw1omeL"
 auth.set_access_token(access_token,access_token_secret)
 
 api = tweepy.API(auth)
+
+
+clarifai_ap_id = "EPj6S60qK-3UvlAed1zoXzkSRz5n4PlRyKnR7Wxs"
+clarifai_ap_secret = "075324r6N9SINSlyh3oQ-fiQ3YcExwm3AEVb37jC"
+clarifai_api = ClarifaiApi(clarifai_ap_id,clarifai_ap_secret) 
 
 ##
 # Simple landing page for symkala. 
@@ -233,6 +239,34 @@ def archive(request):
 	context['data'] = data
 	return render(request,"archive.html",context)
 	
+def clarifaiTag(request,dataId):
+	if request.is_ajax():
+		context = {}
+		data = Data.objects.get(id=dataId,owners = request.user.id);
+		image = data.file
+		if not image.type.startswith("image"):
+			return HttpResponse("data not an image")
+		else:
+			result = clarifai_api.tag_images(default_storage.open(str(image.file)))
+			writeResultsToCsv(result)
+			context["keywords"] = result["results"][0]["result"]["tag"]["classes"]
+			print context
+			return render(request,"clarifai.html",context)
+
+def writeResultsToCsv(clarifaiResponse):
+	try:
+		fileName = "keywords/" + str(uuid.uuid1()) + '.csv'
+		keywordCsv = default_storage.open(fileName,"w+")
+		keywordCsvWriter = csv.DictWriter(keywordCsv,fieldnames=["keywords"])
+		keywordCsvWriter.writeHeader()
+		
+		results = clarifaiResponse.result.tag
+		for result in results.classes:
+			keywordCsvWriter.writerow({"keywords":result})
+		return True
+	except:
+		return False
+		
 def twitter(request):
 	if request.method == "POST":
 		query = request.POST["query"]

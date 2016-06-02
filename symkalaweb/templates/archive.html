@@ -13,7 +13,7 @@
 <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
 
 
-<script src="{% static 'js/archivedev5.js' %}?{% now 'U' %}"></script>
+<script src="{% static 'js/archive.js' %}?{% now 'U' %}"></script>
 <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
 <script src="{% static 'js/mixitup.js' %}"></script>
 <script src="{% static 'js/imagesloaded.js' %}"></script>
@@ -92,7 +92,7 @@
 	<div class="data mix image_cell is-collapsed" data-id="{{item.id}}" data-date="{{item.date|date:'Y-m-d'}}">
 		<div class="image--basic">
 			{% if item.name|length >= 20 %}
-			<div class="label">{{item.name|truncatechars:16}}{{item.name|slice:"-4:"}}</div>
+			<div class="label">{{item.name|truncatechars:10}}{{item.name|slice:"-4:"}}</div>
 			{% else %}
 			<div class="label">{{item.name}}</div>
 			{% endif %}
@@ -104,17 +104,22 @@
 		<div class="image--expand">
 			<a href="#close-jump-{{item.id}}" class="expand_close"></a>
 			<div class="dataTray">
-				<div class="preview">
-					{% if "image" in item.file.type %}
+				{% if "image" in item.file.type %}
+				<div id="imagePreview-{{item.id}}" class="imagePreview">
 						<img class="image--large" src="/api/{{item.file.id}}">
-					{% else %}
-						<div class="textPreview" data-id="{{item.id}}" data-type="{{item.file.type}}" data-name="{{item.name}}"></div>
-					{% endif %}
 				</div>
-				<div id="dataTools">
+				<div id="keywords-{{item.id}}" class="keywords">
 				</div>
+				<div class="dataTools">
+					<button class="clariApi" data-id="{{item.id}}"> Tag Image </button>
+				</div>
+				{% else %}
+				<div class="preview">
+					<div class="textPreview" data-id="{{item.id}}" data-type="{{item.file.type}}" data-name="{{item.name}}"></div>
+				</div>
+				{% endif %}
 			</div>
-			<div id="dataTags">
+			<div class="dataTags">
 				{% for tag in item.tag_set.all %}
 					<div class="tag">{{tag}}</div>
 				{% endfor %}
