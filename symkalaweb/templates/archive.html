@@ -108,10 +108,10 @@
 				<div id="imagePreview-{{item.id}}" class="imagePreview">
 						<img class="image--large" src="/api/{{item.file.id}}">
 				</div>
-				<div id="keywords-{{item.id}}" class="keywords">
+				<div id="keywords-{{item.id}}" class="keywords" data-id="{{item.id}}">
 				</div>
 				<div class="dataTools">
-					<button class="clariApi" data-id="{{item.id}}"> Tag Image </button>
+					<button class="clariApi"> Tag Image </button>
 				</div>
 				{% else %}
 				<div class="preview">

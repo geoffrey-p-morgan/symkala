@@ -249,9 +249,18 @@ def clarifaiTag(request,dataId):
 		else:
 			result = clarifai_api.tag_images(default_storage.open(str(image.file)))
 			writeResultsToCsv(result)
-			context["keywords"] = result["results"][0]["result"]["tag"]["classes"]
-			print context
-			return render(request,"clarifai.html",context)
+			keywords = result["results"][0]["result"]["tag"]["classes"]
+			for word in keywords:
+				if not Keyword.objects.filter(name=word).exists():
+					new_keyword = Keyword(name=word)
+					new_keyword.save()
+					data.keywords.add(new_keyword)
+				else:
+					keyword = Keyword.objects.get(name=word)
+					data.keywords.add(keyword)
+				data.save()
+	context["keywords"] = data.keywords.all()
+	return render(request,"clarifai.html",context)
 
 def writeResultsToCsv(clarifaiResponse):
 	try:

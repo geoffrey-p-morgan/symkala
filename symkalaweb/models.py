@@ -21,7 +21,10 @@ class Twitter(File):
 Twitter._meta.get_field("file").blank = True
 
 class Keyword(models.Model):
-	name = models.CharField(max_length=50)
+	name = models.CharField(max_length=50,unique=True)
+	
+	def __str__(self):
+		return self.name
 	
 class Data(models.Model):
 	name = models.CharField(max_length=150)
