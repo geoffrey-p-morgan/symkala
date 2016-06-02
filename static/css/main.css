@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@font-face {font-family: Campton; src: url('../img/Campton-Light.otf'); } 
+body{color:white; font-size:16px; font-family: 'Lato', sans-serif; line-height: 19px}
+#menu{
+	position: fixed;
+	background-color: #1c1c1c;
+	display: inline-block;
+	width: 100%;
+	height: 8%;
+	z-index: 12;
+}
+
+#logo{font-family: 'Campton', sans-serif; font-size: 5.5rem}
+
+#title{
+	font-size: 2rem;
+	text-decoration: none;
+	color:#cf4735;
+	margin: 1.5% 0 0 2%;
+	font-family: 'Campton', sans-serif;
+	position: fixed;
+}
+
+.content{
+	display: inline-block;
+	background-color: red;
+	width:100%;
+	position: relative;
+	height: 750px;
+}
+
+.centertext{width: 60%; margin: 5% 0 0 20%; text-align: center}
+.thirds{
+	width: 26%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 5%}
+
+h1{font-size: 3.75rem; line-height: 3.3rem}
+h2{font-size: 1.875rem; line-height: 2.2rem}
+h3{font-size: 1.875rem; line-height: 2.2rem; color:#f3664d;}
+h4{font-size: 1.5rem; line-height: 1.7rem;}
+
+
+#one{height: 100%; overflow:hidden;}
+.overvid{
+	position: absolute;
+	display: inline;
+	z-index: 3;
+	top: 42%;
+	left: 30%;
+	text-align: center;
+}
+
+#video-bg{
+	position: absolute;
+	top: 50%; left: 50%;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto;
+    z-index: -100;
+    background: url("../img/video.jpg") no-repeat;
+    background-size: cover; background-position: center center;
+    transform: translate(-50%, 7%);
+}
+
+.video-container {min-height: 720px; padding: 0; overflow: hidden;}
+.video-inner { position: relative; display: block;}
+
+#two{background-image: url("../img/kabul.jpg"); background-size: cover; text-align: center}
+#twotext{margin-top: 18%}
+
+#three{background-image: url("../img/map.jpg");background-size: cover;}
+
+.col{
+	width: 34%;
+	display: inline-block;
+	margin: 7% 0 0 10%;
+	vertical-align: top
+}
+
+.icon{width: 15%; margin: 2% 3% 25% 0; float: left;}
+
+
+#four{
+	background: #9593af;
+  	background: -webkit-linear-gradient(#3c3a53, #524c8f); /* safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#3c3a53, #524c8f); /* opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#3c3a53, #524c8f); /* firefox 3.6 to 15 */
+ 	background: linear-gradient(#9593af, #5b5a71, #3c3a53); 
+}
+
+#five{background-image: url("../img/desert.jpg"); background-size: cover;}
+
+.formtext{
+	width: 78%;
+	margin: 11% 0 0 12%
+}
+
+.formalign{
+	margin-left: 3.5%
+}
+
+.mobilecontact{display: none}
+@media only screen and (max-device-width: 740px) and (min-device-width: 320px){
+	.video-container{height: 400px}
+	#video-bg{transform: translate(-50%, 0);}
+	.video-container {min-height: 400px}
+	
+	body{font-size: 10px; line-height: 12px}
+	#menu{display: none}
+	.centertext{width: 74%; margin:auto;}
+	.content{height: auto}
+	
+	.overvid{width: 60%; top: 20%; left: 20%;}
+	#logo{font-size: 3rem}
+	h1{font-size: 2rem; line-height:2.6rem;}
+
+
+	h4{font-size: 1.2rem; line-height: 1.8rem}
+	#twotext{margin: 23% auto}
+
+	.icon{display: none}
+	.col{ display: inline; vertical-align: baseline}
+	.col p{display: none}
+	.col h3{color: #fc826d; font-size:1.5rem; width: 80%; margin: 2% 0% 2% 10%;}
+
+	#four{display: none}
+
+	.form{display: none}
+	.mobilecontact{display: inline}
+	.mobilecontact a{color: white}
+	#five{padding-bottom: 13%}
+
+}

@@ -1,0 +1,42 @@
+div.recentCard {
+	width: 120px;
+	height: 70px;
+	background: #382D34;
+	color: white;
+	margin: 5px;
+}
+
+div.allCard {
+	width: 120px;
+	height: 70px;
+	background: #382D34;
+	color: white;
+	display: inline-block;
+	margin: 5px;
+	float: left;
+}
+
+div.cardSelected {
+	background: #6D6868;
+}
+
+div.recentCardTitle {
+	width:50px;
+	float: left;
+	margin: 2px;
+}
+
+div.allCardTitle {
+	float: left;
+	margin: 2px;
+}
+
+span.cardContent {
+	display:inline-block;
+	vertical-align:middle;
+	line-height: 70px;
+}
+
+#recentCards {
+	display: -webkit-inline-box;
+}
