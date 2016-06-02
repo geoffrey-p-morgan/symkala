@@ -241,7 +241,6 @@ def archive(request):
 	
 def clarifaiTag(request,dataId):
 	if request.is_ajax():
-		context = {}
 		data = Data.objects.get(id=dataId,owners = request.user.id);
 		image = data.file
 		if not image.type.startswith("image"):
@@ -259,6 +258,11 @@ def clarifaiTag(request,dataId):
 					keyword = Keyword.objects.get(name=word)
 					data.keywords.add(keyword)
 				data.save()
+			return redirect("loadKeywords",dataId)
+
+def loadKeywords(request,dataId):
+	data = Data.objects.get(id=dataId,owners = request.user.id);
+	context = {}
 	context["keywords"] = data.keywords.all()
 	return render(request,"clarifai.html",context)
 

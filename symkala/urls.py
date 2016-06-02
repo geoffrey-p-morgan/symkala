@@ -69,6 +69,7 @@ urlpatterns = [
 	url(r'^cardData/$',views.cardData,name='cardData'),
 	url(r'^textPreview/(?P<dataId>(\d+))/$',views.textPreview,name='textPreview'),
 	url(r'clarifaiApi/(?P<dataId>(\d+))/$',views.clarifaiTag,name="clarifaiApi"),
+	url(r'loadKeywords/(?P<dataId>(\d+))/$',views.loadKeywords,name="loadKeywords"),
 	url(r'^cliff/(?P<text>[\w\ ]+)',views.cliff,name='cliff'),
 	
 	url(r'^$','django.contrib.auth.views.login',{'template_name':'login.html'},name='splash'),
