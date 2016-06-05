@@ -16,7 +16,6 @@ class uploadForm(forms.Form):
 		file = self.cleaned_data['file']
 		if not file:
 			return None
-		print file.content_type
 		if not file.content_type:
 			raise forms.ValidationError('File type is not supported')
 		return file
@@ -51,6 +50,8 @@ class RegistrationForm(UserCreationForm):
 	
 	def clean_email(self):
 		email = self.cleaned_data["email"]
+		if not email.endswith("symkala.com"):
+			raise forms.ValidationError("Only symkala emails allowed!")
 		try:
 			User._default_manager.get(email=email)
 		except User.DoesNotExist:
