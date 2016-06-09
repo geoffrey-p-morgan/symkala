@@ -35,6 +35,7 @@ class RegistrationForm(UserCreationForm):
 	first_name = forms.CharField(required=True,max_length=20)
 	last_name = forms.CharField(required=True,max_length=20)
 	email = forms.EmailField(required=True,max_length=40)
+	organization = forms.CharField(max_length=40)
 	
 	class Meta:
 		model = User

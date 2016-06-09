@@ -2,16 +2,23 @@
 	<head>
 	</head>
 	<body>
-		<table>
-			<tr>
-				<th> Keywords </th>
-			</tr>
-			{% for keyword in keywords %}
-			<tr>
-				<td> {{keyword.name}} </td>
-			</tr>
-			{% endfor %}
-		</table>
+		<form method="POST" action="{% url 'tag' %}">
+			{% csrf_token %}
+			<table>
+				<tr>
+					<th> Keywords </th>
+					<th> Convert to Tag </th>
+				</tr>
+				{% for keyword in keywords %}
+				<tr>
+					<td> {{keyword.name}} </td>
+					<td> <input type="checkbox" name="tag" value="{{keyword.name}}" checked> </td>
+				</tr>
+				{% endfor %}
+			</table>
+			<input type="hidden" value="{{dataId}}" name="dataId">
+			<input type="submit">
+		</form>
 	</body>
 </html>
 			

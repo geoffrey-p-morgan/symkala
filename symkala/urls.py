@@ -54,7 +54,6 @@ urlpatterns = [
 	#helper urls
 	url(r'^tag/$',views.tag,name='tag'),
 	url(r'^api/(?P<img_id>\w+)/$',views.img_api,name= 'img_api'),
-	url(r'^dataSetapi/(?P<dataset_id>\w+)/$',views.dataset_api,name='dataset_api'),
 	url(r'^analysis/$',views.analysis,name ='analysis'),
 	url(r'^getColumnOptions/$',views.getColumnOptions,name="getColumnOptions"),
 	url(r'^deleteBatchData/$',views.deleteBatchData,name='deleteBatchData'),
@@ -62,8 +61,6 @@ urlpatterns = [
 	url(r'^deleteTag/$',views.deleteTag,name='deleteTag'),
 	url(r'^deleteData/(?P<dataId>(\d+))/$',views.deleteData,name='deleteData'),
 	url(r'^getTagNames/(?P<dataId>(\d+))/$',views.getTagNames,name='getTagNames'),
-	url(r'^getDataSetTagNames/(?P<dataSetId>(\d+))/$',views.getDataSetNames,name='getDataSetTagNames'),
-	url(r'^getData/(?P<dataSetId>(\d+))/$',views.getData,name='getData'),
 	url(r'^createCard/$',views.createCard,name='createCard'),
 	url(r'^deleteCard/$',views.deleteCard,name='deleteCard'),
 	url(r'^cardData/$',views.cardData,name='cardData'),

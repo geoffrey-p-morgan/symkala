@@ -264,6 +264,7 @@ def loadKeywords(request,dataId):
 	data = Data.objects.get(id=dataId,owners = request.user.id);
 	context = {}
 	context["keywords"] = data.keywords.all()
+	context["dataId"] = dataId
 	return render(request,"clarifai.html",context)
 
 def writeResultsToCsv(clarifaiResponse):
@@ -390,6 +391,7 @@ def visualize(request):
 			elif typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvCluster" or typeOfAnalysis == "csvTin":
 				lat = request.POST["lat"]
 				lon = request.POST["lon"]
+				tag = request.POST["tag"]
 				if str(data.file.file).endswith("csv"):
 					db = data.name
 					
@@ -401,15 +403,20 @@ def visualize(request):
 					
 					conn = sqlite3.connect(tmpDb)
 					conn.row_factory = sqlite3.Row
+					conn.text_factory = str
 					c = conn.cursor()
-					c.execute("SELECT rowid, * FROM datavalues")
+					if tag:
+						string = "SELECT rowid, %s, %s, %s FROM datavalues" % (lat,lon,tag)
+					else:
+						string = "SELECT rowid, %s, %s FROM datavalues" % (lat,lon)
+					c.execute(string)
 					values = c.fetchall()
 					for row in values:
 						id = row[0]
 						latitude = row[str(lat)]
 						longitude = row[str(lon)]
-						if "tags" in row.keys():
-							tags = row["tags"]
+						if tag:
+							tags = row[str(tag)]
 						else:
 							tags = tagList
 						writer.writerow({'fulcrum_id': id,'FacilityType': tags,'latitude':latitude,'longitude':longitude})
@@ -557,15 +564,6 @@ def analysis(request):
 				analysis["scatter"] = True
 			dataElements.append(data)
 	return JsonResponse(analysis.keys(),safe=False)
-
-def getData(request,dataSetId):
-	dataSet = DataSet.objects.get(id=dataSetId)
-	dataEl = dataSet.data.all()
-	response = []
-	for data in dataEl:
-		dataInfo = {'fileId' : data.file.id, 'id' : data.id , 'type' : data.file.type, 'name' : data.name}
-		response.append(dataInfo)
-	return JsonResponse(response,safe=False)
 	
 def deleteBatchData(request):
 	dataIds = request.POST.get("dataToDelete")
@@ -609,6 +607,7 @@ def textPreview(request,dataId):
 		k.get_contents_to_filename(tmpDb)
 		
 		conn = sqlite3.connect(tmpDb)
+		conn.text_factory = str
 		c = conn.cursor()
 		c.execute("SELECT * FROM datavalues")
 		tableData = c.fetchall()
@@ -621,17 +620,6 @@ def textPreview(request,dataId):
 	else:
 		return HttpResponse("file type preview not supported yet")
 	
-def dataTools(request,dataId):
-	context = {}
-	data = Data.objects.get(id=dataId,owners = request.user.id);
-	if data.file.type.startswith("text"):
-		context["text"] = data.file.file.read()
-	elif data.file.type.endswith("pdf"):
-		print data.file.file.read()
-	context["data"] = data
-	context["tags"] = data.tag_set.all()
-	return render(request,"dataTool.html",context)
-
 def cliff(request,text):
 	server = "http://localhost"
 	port = 8999
@@ -673,14 +661,15 @@ def deleteCard(request):
 def tag(request):
 	tags = [] #array to return ne tag names with count
 	if request.method == "POST":
-		tagNames = request.POST["tag"]
-		if tagNames:
-			tagNames.replace(',','')
+		tagNames = request.POST.getlist("tag")
+		print "here are tags"
+		print tagNames
 		existingTag = request.POST.get("existingTags")
 		tag = 0
 		if existingTag:
 			tag = Tag.objects.get(id=existingTag,owners=request.user)
 		dataElements = request.POST.get("data")
+		data = request.POST.get("dataId") #dataId from keyword tagging
 		if dataElements:
 			dataElements = json.loads(dataElements)
 		if dataElements:
@@ -690,7 +679,7 @@ def tag(request):
 					data.tag_set.add(tag)
 					tags.append({'name': tag.name,'count':getTagCount(request.user,tag),'value':tag.id})
 				else:
-					for tagName in tagNames.split():
+					for tagName in tagNames:
 						try:
 							existingTag = Tag.objects.get(name=tagName,owners = request.user)
 						except:
@@ -708,9 +697,33 @@ def tag(request):
 						data.tag_set.add(new_tag)
 						data.save()
 						tags.append({'name': tagName,'count':getTagCount(request.user,new_tag),'value':new_tag.id})
-						
+		
+		elif data:
+			data = Data.objects.get(id=data,owners = request.user.id)
+			if tag:
+				data.tag_set.add(tag)
+				tags.append({'name': tag.name,'count':getTagCount(request.user,tag),'value':tag.id})
+			else:
+				for tagName in tagNames:
+					try:
+						existingTag = Tag.objects.get(name=tagName,owners = request.user)
+					except:
+						print "oh no"
+						existingTag = 0
+					if existingTag:
+						print "tag %s already exists!" % (tagName)
+						data.tag_set.add(Tag.objects.get(name=tagName,owners = request.user))
+						tags.append({'name': tagName,'count':getTagCount(request.user,existingTag),'value':existingTag.id})
+						continue
+					new_tag = Tag(name=tagName)
+					new_tag.save()
+					new_tag.owners.add(request.user)
+					new_tag.save()
+					data.tag_set.add(new_tag)
+					data.save()
+					tags.append({'name': tagName,'count':getTagCount(request.user,new_tag),'value':new_tag.id})
 		else:
-			for tagName in tagNames.split():
+			for tagName in tagNames:
 				if Tag.objects.filter(name=tagName,owners = request.user).exists():
 					continue
 				new_tag = Tag(name=tagName)
@@ -733,16 +746,7 @@ def getTagNames(request,dataId):
 	for tag in tags:	
 		tagNames += " " + tag.name
 	return HttpResponse(tagNames)
-	
-def getDataSetNames(request,dataSetId):
-	dataSet = DataSet.objects.get(id=dataSetId,owners = request.user.id);
-	tagNames = "";
-	for data in dataSet.data.all():
-		tags = data.tag_set.all()
-		for tag in tags:
-			tagNames += " " + tag.name
-	return HttpResponse(tagNames)
-		
+			
 def removeTag(request):
 	print "removing tag!";
 	dataElements = request.POST.get("dataToRemoveTagFrom")
@@ -795,17 +799,7 @@ def img_api(request,img_id):
 		return HttpResponse(default_storage.open("images/zip.png"))
 	elif img.type == "twitter":
 		return HttpResponse(default_storage.open("images/twitter.png"))
-		
-def dataset_api(request,dataset_id):
-	dataset = DataSet.objects.get(id=dataset_id)
-	data = dataset.data.order_by('?').first()
-	print data
-	img = File.objects.get(id=data.file.id)
-	if img.type.startswith("image"):
-		return HttpResponse(img.file.read())
-	elif img.type.startswith("text"):
-		return HttpResponse(default_storage.open("images/txt.png"))
-	
+			
 ##
 # View for registering.  Users are asked to confirm account upon registering.
 # Confirmation link is sent to the email users signed up with and must click
@@ -823,6 +817,7 @@ def register(request):
 			username = form.cleaned_data['username']
 			user = User.objects.get(username=username)
 			email = form.cleaned_data['email']
+			org = form.cleaned_data['organization']
 			salt = hashlib.sha1(str(random.random())).hexdigest()[:5]
 			activation_key = hashlib.sha1(salt+email).hexdigest()
 			key_expires = datetime.now() + timedelta(2)

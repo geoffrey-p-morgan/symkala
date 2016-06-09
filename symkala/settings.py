@@ -164,7 +164,7 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    "https://%s/" % AWS_S3_CUSTOM_DOMAIN,
+    "static",
 )
 
 #Email smtp setup
