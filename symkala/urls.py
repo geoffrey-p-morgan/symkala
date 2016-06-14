@@ -39,17 +39,20 @@ urlpatterns = [
 	url(r'^twitter/$',views.twitter,name='twitter'),
 	url(r'^manage/$',views.manage,name='manage'),
 	url(r'^visualize/$',views.visualize,name='visualize'),
-	url(r'scatter/(?P<fileName>([\w./\-]+))/$',views.scatter,name="scatter"),
-	url(r'^proximity/$',views.proximity,name='proximity'),
-	url(r'^heat/$',views.heat,name='heat'),
-	url(r'^tin/$',views.tin,name='tin'),
-	url(r'^text/(?P<fileName>([\w./\-]+))/$',views.text,name='text'),
 	url(r'^share/$',views.share,name='share'),
 
 	#registration urls
 	url(r'^register/$',views.register,name='register'),
 	url(r'^register_success/$',views.register_success),
 	url(r'^confirm/(?P<activation_key>\w+)/',views.register_confirm),
+	
+	#analysis urls
+	url(r'scatter/(?P<fileName>([\w./\-]+))/$',views.scatter,name="scatter"),
+	url(r'^proximity/$',views.proximity,name='proximity'),
+	url(r'^heat/$',views.heat,name='heat'),
+	url(r'^poi/$',views.poi,name="poi"),
+	url(r'^tin/$',views.tin,name='tin'),
+	url(r'^text/(?P<fileName>([\w./\-]+))/$',views.text,name='text'),
 	
 	#helper urls
 	url(r'^tag/$',views.tag,name='tag'),

@@ -388,7 +388,7 @@ def visualize(request):
 					rowY = row[str(y)]
 					writer.writerow({"x":rowX,"y":rowY})
 			
-			elif typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvCluster" or typeOfAnalysis == "csvTin":
+			elif typeOfAnalysis == "csvHeat" or typeOfAnalysis == "csvCluster" or typeOfAnalysis == "csvTin" or typeOfAnalysis == "csvPoI":
 				lat = request.POST["lat"]
 				lon = request.POST["lon"]
 				tag = request.POST["tag"]
@@ -448,10 +448,12 @@ def visualize(request):
 	
 	request.session['fileName'] = csvFileName
 	request.session['shapeFileName'] = shapeCsvFileName
-	if typeOfAnalysis == "cluster" or typeOfAnalysis == "csvCluster":
+	if typeOfAnalysis == "Cluster" or typeOfAnalysis == "csvCluster":
 		return redirect("proximity")
-	elif typeOfAnalysis == "heat" or typeOfAnalysis == "csvHeat":
+	elif typeOfAnalysis == "Heat" or typeOfAnalysis == "csvHeat":
 		return redirect("heat")
+	elif typeOfAnalysis == "Points of Interest" or typeOfAnalysis == "csvPoI":
+		return redirect("poi")
 	elif typeOfAnalysis == "Triangulated Irregular Network" or typeOfAnalysis == "csvTin":
 		return redirect("tin")
 	elif typeOfAnalysis == "text":
@@ -499,7 +501,11 @@ def heat(request):
 	fileName = request.session.get('fileName')
 	shapeFile = request.session.get('shapeFileName')
 	return render(request,"heat.html",{'fileName' : fileName,'shapeFile' : shapeFile})
-
+	
+def poi(request):
+	fileName = request.session.get('fileName')
+	shapeFile = request.session.get('shapeFileName')
+	return render(request,"poi.html",{'fileName' : fileName,'shapeFile' : shapeFile})
 
 ##
 # create tin analysis
@@ -554,13 +560,15 @@ def analysis(request):
 				analysis["pdf"] = True
 			# Need at least 1 data point with lat and lon coords
 			if data.lat != None and data.lon != None:
-				analysis["heat"] = True
+				analysis["Heat"] = True
 				analysis["Triangulated Irregular Network"] = True
-				analysis["cluster"] = True
+				analysis["Cluster"] = True
+				analysis["Points of Interest"] = True
 			if str(data.file.file).endswith(".csv"):
 				analysis["csvCluster"] = True
 				analysis["csvHeat"] = True
 				analysis["csvTin"] = True
+				analysis["csvPoI"] = True
 				analysis["scatter"] = True
 			dataElements.append(data)
 	return JsonResponse(analysis.keys(),safe=False)

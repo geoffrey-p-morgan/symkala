@@ -110,6 +110,16 @@
 				</div>
 				<div id="keywords-{{item.id}}" class="keywords" data-id="{{item.id}}">
 				</div>
+				<div id="tags-{{item.id}}" class="keywords">
+					<table>
+						<tr>
+							<th> Tags </th>
+						</tr>
+						{% for tag in item.tag_set.all %}
+							<tr> <td> {{tag}} </td> </tr>
+						{% endfor %}
+					</table>
+				</div>
 				<div class="dataTools">
 					<button class="clariApi" data-id="{{item.id}}"> Tag Image </button>
 				</div>
@@ -118,11 +128,6 @@
 					<div class="textPreview" data-id="{{item.id}}" data-type="{{item.file.type}}" data-name="{{item.name}}"></div>
 				</div>
 				{% endif %}
-			</div>
-			<div class="dataTags">
-				{% for tag in item.tag_set.all %}
-					<div class="tag">{{tag}}</div>
-				{% endfor %}
 			</div>
 		</div>
 	</div>

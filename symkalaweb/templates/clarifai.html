@@ -12,12 +12,12 @@
 				{% for keyword in keywords %}
 				<tr>
 					<td> {{keyword.name}} </td>
-					<td> <input type="checkbox" name="tag" value="{{keyword.name}}" checked> </td>
+					<td> <input type="checkbox" name="tag" value="{{keyword.name}}"> </td>
 				</tr>
 				{% endfor %}
 			</table>
 			<input type="hidden" value="{{dataId}}" name="dataId">
-			<input type="submit">
+			<input type="submit" value="Convert to Tag">
 		</form>
 	</body>
 </html>
