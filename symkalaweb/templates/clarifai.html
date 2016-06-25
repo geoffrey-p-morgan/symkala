@@ -2,7 +2,7 @@
 	<head>
 	</head>
 	<body>
-		<form method="POST" action="{% url 'tag' %}">
+		<form id="tagform-{{dataId}}" method="POST" action="{% url 'tag' %}">
 			{% csrf_token %}
 			<table>
 				<tr>
@@ -17,7 +17,6 @@
 				{% endfor %}
 			</table>
 			<input type="hidden" value="{{dataId}}" name="dataId">
-			<input type="submit" value="Convert to Tag">
 		</form>
 	</body>
 </html>

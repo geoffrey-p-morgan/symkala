@@ -14,8 +14,6 @@
 </head>
 
 <body>
-{% block body %}
-{% endblock %}
 <div class="section group">
 	<div id="nav" class="col span_1_of_4">
 	{% block nav %}
@@ -77,6 +75,7 @@
 		
 		var sections = document.getElementById('sections');
 		var section = document.createElement('li');
+		section.setAttribute("class","section");
 		if(id !== undefined) {
 			section.setAttribute("id","section_" + id);
 			$(section).text(id);
@@ -132,10 +131,12 @@
 		var nav = navs[index];
 		
 		$("div#display").replaceWith($(display));
-		$("div#filters").replaceWith($(filter));
+		//$("div#filters").replaceWith($(filter));
 		$("div#mods").replaceWith($(mod));
 		//$("div#nav").replaceWith($(nav));
 	}
 </script>
+{% block body %}
+{% endblock %}
 </body>
 </html>

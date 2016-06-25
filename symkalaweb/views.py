@@ -345,7 +345,7 @@ def visualize(request):
 	elif typeOfAnalysis == "scatter":
 		fieldnames = ['x','y']
 	else:
-		fieldnames = ['fulcrum_id','FacilityType','latitude','longitude']
+		fieldnames = ['fulcrum_id','FacilityType','latitude','longitude','preview']
 	writer = csv.DictWriter(csvFile,fieldnames=fieldnames)
 	writer.writeheader()
 	cardIds = json.loads(request.POST["data"])
@@ -419,7 +419,7 @@ def visualize(request):
 							tags = row[str(tag)]
 						else:
 							tags = tagList
-						writer.writerow({'fulcrum_id': id,'FacilityType': tags,'latitude':latitude,'longitude':longitude})
+						writer.writerow({'fulcrum_id': id,'FacilityType': tags,'latitude':latitude,'longitude':longitude,'preview': ""})
 			elif typeOfAnalysis == "text":
 				if data.file.type.startswith("text"):
 					try:
@@ -442,33 +442,36 @@ def visualize(request):
 						print "problem with pdf file"
 			else:
 				if(data.lat != None and data.lon != None):
-					writer.writerow({'fulcrum_id': data.name,'FacilityType': tagList,'latitude':data.lat,'longitude':data.lon})
+					previewImg = "<img src='/api/%s' class='basic_img'>" % (data.file.id)
+					writer.writerow({'fulcrum_id': data.name,'FacilityType': tagList,'latitude':data.lat,'longitude':data.lon,'preview': previewImg})
 	csvFile.close()
 	shapeCsv.close()
 	
 	request.session['fileName'] = csvFileName
 	request.session['shapeFileName'] = shapeCsvFileName
+	request.session['csvFileName'] = csvFileName
 	if typeOfAnalysis == "Cluster" or typeOfAnalysis == "csvCluster":
 		return redirect("proximity")
-	elif typeOfAnalysis == "Heat" or typeOfAnalysis == "csvHeat":
+	if typeOfAnalysis == "Heat" or typeOfAnalysis == "csvHeat":
 		return redirect("heat")
-	elif typeOfAnalysis == "Points of Interest" or typeOfAnalysis == "csvPoI":
+	if typeOfAnalysis == "Points of Interest" or typeOfAnalysis == "csvPoI":
 		return redirect("poi")
-	elif typeOfAnalysis == "Triangulated Irregular Network" or typeOfAnalysis == "csvTin":
+	if typeOfAnalysis == "Triangulated Irregular Network" or typeOfAnalysis == "csvTin":
 		return redirect("tin")
-	elif typeOfAnalysis == "text":
-		return redirect("text",csvFileName)
-	elif typeOfAnalysis == "pdf":
-		return redirect("text",csvFileName)
-	elif typeOfAnalysis == "scatter":
-		return redirect("scatter",csvFileName)
+	if typeOfAnalysis == "text":
+		return redirect("text")
+	if typeOfAnalysis == "pdf":
+		return redirect("text")
+	if typeOfAnalysis == "scatter":
+		return redirect("scatter")
 	else:
 		print "analyis not supported... yet"
 		return HttpResponse("Analysis not supported... yet")
 	return render(request,"visualize.html")
 
 	
-def scatter(request,fileName):
+def scatter(request):
+	fileName = request.sessino.get('csvFileName')
 	return render(request,"scatter.html",{"fileName" : fileName})
 		
 ##
@@ -485,7 +488,8 @@ def proximity(request):
 		print line
 	return render(request,"proximity.html",{'shapeFile' : shapeFile, 'forceFileName' : proximityFileName})
 	
-def text(request,fileName):
+def text(request):
+	fileName = request.sessino.get('csvFileName')
 	textFileName = 'data/' + str(uuid.uuid1()) + '.csv'
 	p = Popen(['java','-jar','calculateTFIDF.jar','https://s3.amazonaws.com/symkaladev6/' + fileName,',','50','symkaladev6',textFileName],stdout=PIPE,stderr=STDOUT)
 	for line in p.stdout:
@@ -546,32 +550,107 @@ def getColumnOptions(request):
 def analysis(request):
 	if request.method != "POST":
 		return redirect("manage")
+	geoDataFileName = 'data/' + str(uuid.uuid1()) + '.csv'
+	geoDataFile = default_storage.open(geoDataFileName,'w+')
+	geoDataFieldnames = ['fulcrum_id','FacilityType','latitude','longitude','preview']
+	geoDataWriter = csv.DictWriter(geoDataFile,fieldnames=geoDataFieldnames)
+	geoDataWriter.writeheader()
+	
+	csvFileName = 'data/' + str(uuid.uuid1()) + '.csv'
+	csvFile = default_storage.open(csvFileName,'w+')
+	csvFieldNames = ['fileName']
+	csvWriter = csv.DictWriter(csvFile,fieldnames=csvFieldNames)
+	csvWriter.writeheader()
+	
+	shapeCsvFileName = 'data/' + str(uuid.uuid1()) + '.csv'
+	shapeCsv = default_storage.open(shapeCsvFileName,'w+')
+	shapeWriter = csv.DictWriter(shapeCsv,fieldnames=["fileName"])
+	shapeWriter.writeheader()
+		
 	cardIds = json.loads(request.POST["cards"])
 	dataElements = [];
-	analysis = {}
+	context = {}
+	chart2d = set() #set of analysis options
+	map = set()
+	types = set() #set of viz type
 	for cardId in cardIds:
 		card = Card.objects.get(id=cardId)
 		cardData = card.data.all()
 		for data in cardData:
-			print data.file.type
+			tagList = ""
+			tags = data.tag_set.all()
+			for tag in tags:
+				tagList += tag.name + " "
+			#if shape file write to shapefile csv and continue, not used in rest of analysis
+			if str(data.file.file).endswith("zip"):
+				shapeFileName = 'data/' + str(uuid.uuid1()) + '.zip'
+				tmpFile = default_storage.open(shapeFileName,'w')
+				tmpFile.write(data.file.file.read())
+				tmpFile.close()
+				shapeWriter.writerow({'fileName' : "https://s3.amazonaws.com/symkaladev6/" + shapeFileName})
+				continue
 			if data.file.type.startswith("text"):
-				analysis["text"] = True
+				chart2d.add("text")
+				types.add("2D Chart")
 			elif data.file.type.endswith("pdf"):
-				analysis["pdf"] = True
+				chard2d.add("pdf")
+				types.add("2D Chart")
 			# Need at least 1 data point with lat and lon coords
 			if data.lat != None and data.lon != None:
-				analysis["Heat"] = True
-				analysis["Triangulated Irregular Network"] = True
-				analysis["Cluster"] = True
-				analysis["Points of Interest"] = True
+				map.add("heat")
+				map.add("Triangulated Irregular Network")
+				map.add("Cluster")
+				map.add("Points of Interest")
+				types.add("Map")
+				
+				previewImg = "<img src='/api/%s' class='basic_img'>" % (data.file.id)
+				geoDataWriter.writerow({'fulcrum_id': data.name,'FacilityType': tagList,'latitude':data.lat,'longitude':data.lon,'preview': previewImg})
 			if str(data.file.file).endswith(".csv"):
-				analysis["csvCluster"] = True
-				analysis["csvHeat"] = True
-				analysis["csvTin"] = True
-				analysis["csvPoI"] = True
-				analysis["scatter"] = True
+				chart2d.add('scatter')
+				types.add("2D Chart")
+				
+				db = data.name
+					
+				c = boto.connect_s3(settings.AWS_ACCESS_KEY_ID,settings.AWS_SECRET_ACCESS_KEY)
+				b = c.lookup("symkaladev6")
+				k = b.new_key(db)
+				tmpDb = "tmp.db"
+				k.get_contents_to_filename(tmpDb)
+				
+				conn = sqlite3.connect(tmpDb)
+				conn.text_factory = str
+				c = conn.cursor()
+				c.execute("SELECT * FROM metadata")
+				
+				metaData = c.fetchall()
+				csvDataFieldNames = [''.join(x) for x in metaData]
+				csvDataFieldNames = [x.lower() for x in csvDataFieldNames]
+				
+				csvDataName = 'data/' + str(uuid.uuid1()) + '.csv'
+				csvData = default_storage.open(csvDataName,'w+')
+				csvDataWriter = csv.writer(csvData)
+				csvDataWriter.writerow(csvDataFieldNames)
+				
+				c.execute("SELECT * FROM datavalues")
+				
+				values = c.fetchall()
+				for row in values:
+					csvDataWriter.writerow(row)
+					
+				csvWriter.writerow({"fileName" : csvDataName})
+				csvData.close()
 			dataElements.append(data)
-	return JsonResponse(analysis.keys(),safe=False)
+	context["2D"] = json.dumps(list(chart2d))
+	context["map"] = json.dumps(list(map))
+	context["types"] = json.dumps(list(types))
+	context["geoData"] = geoDataFileName
+	context["csvData"] = csvFileName
+	
+	geoDataFile.close()
+	csvFile.close()
+	shapeCsv.close()
+	
+	return render(request,"visualize.html",context)
 	
 def deleteBatchData(request):
 	dataIds = request.POST.get("dataToDelete")

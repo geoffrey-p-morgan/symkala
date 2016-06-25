@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="{% static 'css/manage.css' %}?{% now 'U' %}">
 <link rel="stylesheet" href="{% static 'css/stacks.css' %}?{% now 'U' %}">
 <script src="{% static 'js/interact.js' %}"></script>
-<script src="{% static 'js/stacks.js' %}"></script>
+<script src="{% static 'js/stacksNewViz.js' %}"></script>
 {% endblock %}
 
 {% block tools %}
@@ -21,9 +21,10 @@
 {% endblock %}
 
 {% block mod %}
-<form id="analysisform" action="{% url 'visualize' %}" method="POST">
+<form id="analysisform" action="{% url 'analysis' %}" method="POST">
 	{% csrf_token %}
-	<input type="hidden" class="data" id="data" name="data" value="">
+	<input type="hidden" class="data" id="cards" name="cards" value="">
+	<div id="submit"></div>
 </form>
 <div id="preview"></div>
 {% endblock %}
