@@ -645,6 +645,7 @@ def analysis(request):
 	context["types"] = json.dumps(list(types))
 	context["geoData"] = geoDataFileName
 	context["csvData"] = csvFileName
+	context["shapeFile"] = shapeCsvFileName
 	
 	geoDataFile.close()
 	csvFile.close()

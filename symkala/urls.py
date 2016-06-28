@@ -47,12 +47,12 @@ urlpatterns = [
 	url(r'^confirm/(?P<activation_key>\w+)/',views.register_confirm),
 	
 	#analysis urls
-	url(r'scatter/(?P<fileName>([\w./\-]+))/$',views.scatter,name="scatter"),
+	url(r'scatter/$',views.scatter,name="scatter"),
 	url(r'^proximity/$',views.proximity,name='proximity'),
 	url(r'^heat/$',views.heat,name='heat'),
 	url(r'^poi/$',views.poi,name="poi"),
 	url(r'^tin/$',views.tin,name='tin'),
-	url(r'^text/(?P<fileName>([\w./\-]+))/$',views.text,name='text'),
+	url(r'^text/$',views.text,name='text'),
 	
 	#helper urls
 	url(r'^tag/$',views.tag,name='tag'),
